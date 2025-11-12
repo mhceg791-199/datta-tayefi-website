@@ -74,7 +74,7 @@ export default function ProjectGallery({ imgs }) {
                 <img
                   src={imgs[lightboxIndex]}
                   className="max-w-full max-h-full object-contain"
-                  alt=""
+                  alt="ProjectGallery"
                 />
               </motion.div>
 

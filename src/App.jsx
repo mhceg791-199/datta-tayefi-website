@@ -12,7 +12,7 @@ import ProjectsDetails from "./pages/projectsDetails/projectsDetails";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import CategoryProjects from "./pages/ProjectCategory/ProjectCategory";
 import ScrollToTopButton from "./components/shared/ScrollToTopButton/ScrollToTopButton";
-import Services from "./pages/services/services";
+import Services from "./pages/Services/Services";
 import ProjectsFilter from "./pages/projects/ProjectsFilter";
 import Career from "./pages/Career/Career";
 import ContactUs from "./pages/ContactUs/ContactUs";

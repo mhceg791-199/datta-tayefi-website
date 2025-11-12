@@ -1,0 +1,38 @@
+:root {
+  --mainColor: #2d2d2f;
+  --textColor: white;
+  --lightColor: #e0e0d4;
+  --mainGold: #C5A363;
+}
+
+body{
+  background-color: var(--lightColor);
+}
+
+::selection {
+    background-color: var(--lightColor);
+    color: var(--mainColor);
+}
+
+.text-header {
+  font-size: 49px;
+}
+
+.text-large {
+  font-size: 38px;
+}
+
+
+.swiper-pagination-bullet {
+  background: var(--mainColor) !important;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  margin-top: 15px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--mainColor) !important;
+  width: 12px;
+  height: 12px;
+}

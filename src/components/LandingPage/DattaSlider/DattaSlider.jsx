@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import d1 from "../../../assets/LandingPage/DattaSlider/career.webp";
+import d1 from "../../../assets/LandingPage/DattaSlider/p31.webp";
 import d2 from "../../../assets/LandingPage/DattaSlider/home.webp";
 import d3 from "../../../assets/LandingPage/DattaSlider/p13.webp";
 import landSettings from "../../../data/settings/settings";

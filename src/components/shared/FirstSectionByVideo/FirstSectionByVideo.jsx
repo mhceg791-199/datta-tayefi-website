@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import video from "../../../assets/shared/vid.mp4";
-import fallback from "../../../assets/shared/fallback.png";
+import video from "../../../assets/shared/vid.webm";
+import fallback from "../../../assets/shared/fallback.webp";
 
 function FirstSectionByVideo({
   videoSrc = video,

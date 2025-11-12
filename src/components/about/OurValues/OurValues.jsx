@@ -1,5 +1,5 @@
 
-import value from "../../../assets/shared/value.jpg";
+import value from "../../../assets/shared/value.webp";
 import values from "../../../data/values";
 import SectionHeader from "../../shared/SectionHeaders/SectionHeader";
 

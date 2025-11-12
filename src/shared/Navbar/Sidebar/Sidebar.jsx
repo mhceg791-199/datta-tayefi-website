@@ -223,7 +223,7 @@ export function SidebarWithBurgerMenu() {
                       open === 4 ? "text-mainGold" : ""
                     }`}
                   >
-                    <i className="fa-solid fa-hand-holding-dollar text-xl pe-2"></i>{" "}
+                    <i className="fa-solid fa-diagram-project text-xl pe-2"></i>{" "}
                     PROJECTS
                   </Typography>
                 </AccordionHeader>

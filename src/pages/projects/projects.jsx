@@ -140,7 +140,7 @@ export default function AllProjects() {
           </div>
         )}
 
-      {/*  Tayefi Projects */} 
+      {/*  Tayefi Projects */}
       {(activeFilter === "all" || activeFilter === "tayefi") &&
         tayefiProjects.length > 0 && (
           <div className="mt-6">

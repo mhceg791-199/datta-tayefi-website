@@ -21,7 +21,7 @@ export default function ProjectsFilter() {
     activeCategory === "all"
       ? filteredProjects
       : filteredProjects.filter((p) => p.category === activeCategory);
-
+ 
   const uniqueCategories = [...new Set(projectsToShow.map((p) => p.category))];
 
   return (

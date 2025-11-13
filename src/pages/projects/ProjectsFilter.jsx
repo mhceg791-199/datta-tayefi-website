@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function ProjectsFilter() {
   const { search } = useLocation();
   const params = new URLSearchParams(search);
-  const brand = params.get("brand"); // datta or tayefi
+  const brand = params.get("brand"); 
 
   const filteredProjects = projectsData.filter(
     (p) => p.brand?.toLowerCase() === brand?.toLowerCase()

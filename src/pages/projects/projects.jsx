@@ -130,7 +130,7 @@ export default function AllProjects() {
                 >
                   <img
                     src={p.imgs[0]}
-                    alt={p.name}
+                    alt={p.name} 
                     className="w-full h-48 object-cover rounded"
                   />
                   <h3 className="mt-3 text-xl">{p.name}</h3>

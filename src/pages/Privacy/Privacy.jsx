@@ -4,7 +4,7 @@ import TitleWithList from "../../components/shared/TitleWithList/TitleWithList";
 
 function Privacy() {
   const paragraphs = [
-    "Mosaic Holding Corporation (MHC) is committed to safeguarding the privacy and security of all personal data collected in the course of our operations. This Privacy Policy outlines our protocols for collecting, using, storing, and disclosing personal information, in alignment with applicable data protection regulations. By engaging with our services, you acknowledge and consent to the terms outlined.",
+    "Datta and Tayefi is committed to safeguarding the privacy and security of all personal data collected in the course of our operations. This Privacy Policy outlines our protocols for collecting, using, storing, and disclosing personal information, in alignment with applicable data protection regulations. By engaging with our services, you acknowledge and consent to the terms outlined.",
   ];
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -29,12 +29,12 @@ function Privacy() {
 Information we may gather includes, but is not limited to:"
           list={[
             "Personal Identifiers: Full name, contact details, employment information, and other identifiers necessary for our business processes.",
-            "Usage Data: Data on interaction patterns with MHC platforms to enhance service quality and user experience.",
+            "Usage Data: Data on interaction patterns with Datta and Tayefi platforms to enhance service quality and user experience.",
           ]}
         />
         <TitleWithList
           title="PURPOSE OF DATA COLLECTION"
-          text="MHC collects personal data solely to improve the quality of our services, enhance operational efficiency, and foster a secure and personalized user experience. Primary purposes include:"
+          text="Datta and Tayefi collects personal data solely to improve the quality of our services, enhance operational efficiency, and foster a secure and personalized user experience. Primary purposes include:"
           list={[
             "Enhancement of User Experience: Analyzing usage patterns to refine our offerings.",
             "Compliance and Legal Requirements: Adhering to regulatory obligations and facilitating any required audits or disclosures.",
@@ -47,7 +47,7 @@ or destruction. This includes encryption protocols, secure data storage, and str
         />
         <TitleWithList
           title="DATA SHARING AND DISCLOSURE"
-          text="MHC respects your privacy and does not share personal information with unaffiliated third parties except as outlined in this policy. Data may be shared under the following conditions:"
+          text="Datta and Tayefi respects your privacy and does not share personal information with unaffiliated third parties except as outlined in this policy. Data may be shared under the following conditions:"
           list={[
             "Service Providers: Trusted partners that assist us in delivering our services, under strict confidentiality agreements.",
             "Legal Compliance: When required by law or in response to legal proceedings.",
@@ -60,7 +60,7 @@ or destruction. This includes encryption protocols, secure data storage, and str
         />
         <TitleWithList
           title="CHANGES TO THIS PRIVACY POLICY"
-          text="MHC reserves the right to amend this Privacy Policy to reflect changes in our practices, regulatory requirements, or other operational considerations. All updates will be published on our website, with the 'Last Updated' date indicating the most recent revisions."
+          text="Datta and Tayefi reserves the right to amend this Privacy Policy to reflect changes in our practices, regulatory requirements, or other operational considerations. All updates will be published on our website, with the 'Last Updated' date indicating the most recent revisions."
         />
         <TitleWithList
           title="CONTACT US"

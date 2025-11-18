@@ -6,11 +6,11 @@ import logo from "../../assets/logo/logo2.webp";
 export default function Landing() {
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <Link to="/home" className="absolute top-1 left-10 z-50">
+      <Link to="/home" className="absolute top-1 left-2 md:left-10 z-50">
         <img
           src={logo}
           alt="Datta And Tayefi"
-          className="w-[20%] object-contain cursor-pointer"
+          className="w-[45%] md:w-[20%] object-contain cursor-pointer"
         />
       </Link>
 

@@ -87,7 +87,7 @@ export default function AllProjects() {
   return (
     <div className="bg-mainColor text-lightColor min-h-screen px-8 py-6 md:py-16">
       {/*  Section Title */}
-      <h1 className="heading font-bold text-center mt-12  mb-6">
+      <h1 className="heading font-bold text-center mt-20  md:mt-12  mb-6">
         <SectionHeader firstWord="All Projects" />
       </h1>
 

@@ -1,5 +1,6 @@
 import LinesBackground from "../shared/LinesBackground/LinesBackground";
 import SectionHeader from "../shared/SectionHeaders/SectionHeader";
+import Recognition from "./Recognition";
 
 export const ProjectCard = ({
   client,
@@ -8,6 +9,7 @@ export const ProjectCard = ({
   status,
   year,
   description,
+  awards
 }) => {
   return (
     <section className="max-w-6xl mx-auto px-6 md:px-10 -mt-20 relative z-20">
@@ -26,17 +28,20 @@ export const ProjectCard = ({
         "
         style={{
           clipPath:
-            "polygon(0px 0px, 88% 0px, 100% 30%, 100% 100%, 15% 100%, 0px 84%)",
+            "polygon(0px 0px, 90% 0px, 100% 26%, 100% 100%, 15% 100%, 0px 84%)",
         }}
       >
         <LinesBackground />
 
         <div className="grid md:grid-cols-2 gap-12 relative z-10">
+          {/* LEFT SIDE — INFO */}
           <div className="space-y-4">
-            <div className=" tracking-wide text-lightColor mb-3">
+            <div className="tracking-wide text-lightColor mb-3">
               <SectionHeader firstWord="Project Information" />
             </div>
-
+            <p className="text-mainGold font-semibold tracking-wide text-lg mt-3">
+              By Arup Datta Architect
+            </p>
             <p>
               <span className="font-bold text-mainGold">CLIENT:</span> {client}
             </p>
@@ -58,6 +63,7 @@ export const ProjectCard = ({
             <div className="h-[1px] bg-mainGold/30 mt-6"></div>
           </div>
 
+          {/* RIGHT SIDE — DESCRIPTION */}
           <div className="space-y-5 leading-relaxed text-gray-300">
             {description?.map((d, index) => (
               <p key={index}>{d}</p>
@@ -65,6 +71,8 @@ export const ProjectCard = ({
           </div>
         </div>
       </div>
+
+      <Recognition awards={awards}/>
     </section>
   );
 };

@@ -22,6 +22,7 @@ export default function ProjectsDetails() {
     industry,
     imgs,
     name,
+    awards 
   } = project;
 
   return (
@@ -34,6 +35,7 @@ export default function ProjectsDetails() {
         status={status}
         year={year}
         description={description}
+        awards={awards}
       />
       <GalleryDetails imgs={imgs} />
 

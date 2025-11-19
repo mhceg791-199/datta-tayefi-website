@@ -1,9 +1,9 @@
 export const slugify = (name) => name.toLowerCase().replace(/\s+/g, "-");
- 
+
 const projectsData = [
   {
-    name: "Lexus of Edmonton",
-    slug: slugify("Lexus of Edmonton"),
+    name: "Lexus of Edmonton South",
+    slug: slugify("Lexus of Edmonton South"),
     imgs: [
       "/projects/Lexus/1.webp",
       "/projects/Lexus/2.webp",
@@ -15,7 +15,7 @@ const projectsData = [
       "/projects/Lexus/8.webp",
       "/projects/Lexus/9.webp",
     ],
-    industry: "Interior Design",
+    industry: "Interior Design & Commercial",
     category: "Interior Design",
     subIndustry: "Luxury Vehicle Dealership",
     client: "Lexus of Edmonton",
@@ -23,8 +23,18 @@ const projectsData = [
     location: "Canada",
     year: "2010",
     brand: "datta",
+    awards: [
+      "The Americas Property Awards 2014-2015 — Best Retail Architecture (Canada)",
+      "From the International Property Awards (U.K.)",
+      "Listed among the Top 5 World’s Best in Retail Architecture, Dubai 2014-2015",
+      "Exhibited in the World Architecture Festival 2013, Singapore",
+      "Featured in the Edmonton Urban Design Awards 2013",
+      "Featured in World Building Directory — Showrooms Canada (2013)",
+    ],
+
     description: [
-      "Lexus of Edmonton is a luxury vehicle dealership located in Edmonton, Alberta, offering new and pre-owned Lexus vehicles, along with maintenance, parts, and detailing services. With over two decades of experience and multiple Pursuit of Excellence Awards, the dealership is recognized for exceptional customer service and community involvement.",
+      "Located at the highly visible intersection of Ellerslie Road and Calgary Trail in South Edmonton, this landmark facility is one of Alberta’s largest luxury auto retail complexes, spanning approximately 50,700 sq. ft. The development includes new, hybrid, and pre-owned vehicle showrooms, a servicing area, car wash, and Edmonton’s first illuminated car display tower — visible from three sides and designed as an architectural statement day and night.",
+      "The project maximizes vehicular parking while integrating landscaped zones and visually stimulating features such as media walls, ramps, double-height glazing, and an open-concept retail lounge anchored by a waterfall centerpiece. Recognized internationally for its innovative design, the project was exhibited at the World Architecture Festival 2013 (Singapore) and featured in the Edmonton Urban Design Awards 2013. It has been consistently praised for creating a strong visual identity and elevating the retail experience in automotive architecture.",
     ],
   },
   {
@@ -57,7 +67,7 @@ const projectsData = [
     slug: slugify("Callaghan Ravines, Edmonton, AB"),
     imgs: ["/projects/Mackinnion/1.webp", "/projects/Mackinnion/2.webp"],
     industry: "Residential",
-        category: "Residential",
+    category: "Residential",
     subIndustry: "Housing Construction",
     client: "Rohit Group of Companies",
     status: "Completed",
@@ -144,7 +154,7 @@ const projectsData = [
     status: "Completed",
     location: "USA",
     year: "2016",
-    brand: "tayefi",
+    brand: "datta",
     description: [
       "The Osheana Condominiums in Edmonton, AB, is a residential development located in the Ozerna neighborhood. The project offers modern living spaces with contemporary amenities. ",
     ],
@@ -160,7 +170,7 @@ const projectsData = [
     status: "Completed",
     location: "Canada",
     year: "2019",
-    brand: "tayefi",
+    brand: "datta",
     description: [
       "One Denver Place is a mixed-use development in downtown Denver, Colorado, completed in 1981 by Devco Property Inc. The complex includes two towers, with the South Tower standing 34 stories and the North Tower 23 stories. It features office space, retail areas, and a bridge connecting to nearby buildings like the Ritz-Carlton. The project was designed by Marvin E. Knedler & Assoc. Architects, P.C. and has earned awards for its green design, including the Gold LEED-EB Label.",
     ],
@@ -180,7 +190,7 @@ const projectsData = [
     status: "Completed",
     location: "USA",
     year: "2006",
-    brand: "tayefi",
+    brand: "datta",
     description: [
       "The Mall of America (MOA) in Bloomington, Minnesota, is a major retail and entertainment complex, spanning 5.6 million square feet with over 520 stores. It attracts more than 43 million visitors annually.",
     ],
@@ -200,7 +210,7 @@ const projectsData = [
     status: "Completed",
     location: "Canada",
     year: "2023",
-    brand: "tayefi",
+    brand: "datta",
     description: [
       "The Nigerian Industrial Bank Headquarters, Convention Centre, and Shopping Complex in Abuja is a mixed-use development that serves as the headquarters for the Nigerian Industrial Bank (NIB). The complex includes office spaces for NIB, a convention centre for large events, and a shopping complex with retail, dining, and entertainment options, contributing to the city's economic growth.",
     ],
@@ -225,7 +235,7 @@ const projectsData = [
     status: "Completed",
     location: "Canada",
     year: "2023",
-    brand: "tayefi",
+    brand: "datta",
     description: [
       "The Olympic Center in Calgary, AB, primarily serves the Sports and Recreation industry, focusing on Sports Facilities Management and Community Recreation Services. It includes WinSport Canada Olympic Park, originally built for the 1988 Winter Olympics, offering ski, snowboard, and bobsleigh facilities, and the Markin MacPhail Centre for sports training. The Olympic Plaza in downtown Calgary is a community space being redeveloped for arts and events. The client for these facilities is WinSport, a non-profit organization promoting sports and recreation in Canada.",
     ],

@@ -13,8 +13,8 @@ const slides = [
   },
   {
     image: t2,
-    title: "Every line we draw begins",
-    subtitle: "with purpose and ends with precision",
+    title: "A PROUD SUBSIDIARY OF",
+    subtitle: "MOSAIC HOLDING CORPORATION",
   },
   {
     image: t3,

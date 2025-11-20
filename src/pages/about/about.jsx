@@ -6,20 +6,19 @@ import DescriptionAbout from "../../components/shared/DescriptionAbout/Descripti
 
 function About() {
   const paragraphs = [
-    "Every structure begins with an idea — but true architecture begins with connection.",
-
-    "Datta & Tayefi was born from that connection: two legacies, two philosophies, and two lifelong pursuits of excellence finding harmony in a single vision. What began as independent journeys — Arup Datta Architects Ltd., known for design depth and artistic mastery, and Max Tayefi Architects Ltd., renowned for precision, management, and engineering — evolved into something far greater when their paths converged under one shared purpose",
+    "Datta & Tayefi is a proud subsidiary of Mosaic Holding Corporation — an investment firm built on the belief that when exceptional forces come together, they create something far more powerful than they ever could alone.",
   ];
 
   const paragraphs2 = [
-    "Their merger was not a coincidence, but a continuation of Mosaic Holding Corporation’s belief that greatness emerges when distinct strengths come together — when creativity meets structure, when vision meets execution, when every piece finds its place in a larger design.",
+    "That belief brought two established names into the Mosaic family. Arup Datta Architects Ltd., known for shaping meaningful, culturally rooted designs across continents.",
+    "And Max Tayefi Architect Inc., recognized for its technical strength, precision, and decades of trusted project delivery."
   ];
   const paragraphs3 = [
-    "Today, Datta & Tayefi stands as a reflection of that philosophy — a studio where art and science coexist, where every line tells a story, and where architecture becomes more than form or function.",
+    "Within Mosaic’s vision of unity and purpose, their convergence felt less like a decision and more like an evolution — a natural alignment of capability, experience, and ambition.",
 
-    "It becomes dialogue.",
+    "From that alignment, Datta & Tayefi emerged. Not as a simple merge, but as a new powerhouse — strengthened by two proven legacies and guided by Mosaic Holding’s belief that greatness is created when the right pieces come together with intention.",
 
-    "It becomes legacy.",
+    "Today, Datta & Tayefi reflects that philosophy: purposeful, unified, and built on the combined strength of firms that have already shaped cities, cultures, and communities around the world.",
   ];
 
   return (
@@ -33,7 +32,7 @@ function About() {
         paragraphs2={paragraphs2}
         paragraphs3={paragraphs3}
         particleColors={["#e0e0d4", "#e0e0d4"]}
-        height="h-[77vh] md:h-[65vh]"
+        height="h-[85vh] md:h-[65vh]"
       />
       <MissionVisionSection />
       <OurValues />

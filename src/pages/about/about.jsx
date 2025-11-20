@@ -8,17 +8,16 @@ function About() {
   const paragraphs = [
     "Datta & Tayefi is a proud subsidiary of Mosaic Holding Corporation — an investment firm built on the belief that when exceptional forces come together, they create something far more powerful than they ever could alone.",
     "That belief brought two established names into the Mosaic family. Arup Datta Architects Ltd., known for shaping meaningful, culturally rooted designs across continents.",
-    "And Max Tayefi Architect Inc., recognized for its technical strength, precision, and decades of trusted project delivery."
+    "And Max Tayefi Architect Inc., recognized for its technical strength, precision, and decades of trusted project delivery.",
+    "Within Mosaic’s vision of unity and purpose, their convergence felt less like a decision and more like an evolution — a natural alignment of capability, experience, and ambition.",
+    "From that alignment, Datta & Tayefi emerged. Not as a simple merge, but as a new powerhouse — strengthened by two proven legacies and guided by Mosaic Holding’s belief that greatness is created when the right pieces come together with intention.",
+    "Today, Datta & Tayefi reflects that philosophy: purposeful, unified, and built on the combined strength of firms that have already shaped cities, cultures, and communities around the world.",
+ 
   ];
 
   
-  const paragraphs2 = [
-    "Within Mosaic’s vision of unity and purpose, their convergence felt less like a decision and more like an evolution — a natural alignment of capability, experience, and ambition.",
-
-    "From that alignment, Datta & Tayefi emerged. Not as a simple merge, but as a new powerhouse — strengthened by two proven legacies and guided by Mosaic Holding’s belief that greatness is created when the right pieces come together with intention.",
-
-    "Today, Datta & Tayefi reflects that philosophy: purposeful, unified, and built on the combined strength of firms that have already shaped cities, cultures, and communities around the world.",
-  ];
+  // const paragraphs2 = [
+  //    ];
 
   return (
     <>

@@ -461,6 +461,38 @@ const projectsData = [
       "6 story residential apartments/95 units"
     ],
   },
+
+  {
+    name: "Calgary Catholic Immigration Society (CCIS)",
+    slug: slugify("Calgary Catholic Immigration Society (CCIS)"),
+    imgs: [
+      "/projects/tayefi/Calgary Catholic Immigration Society (CCIS)/1-2.jpg",
+      "/projects/tayefi/Calgary Catholic Immigration Society (CCIS)/2-2.jpg",
+      "/projects/tayefi/Calgary Catholic Immigration Society (CCIS)/3-2.jpg",
+      "/projects/tayefi/Calgary Catholic Immigration Society (CCIS)/4-2.jpg",
+      "/projects/tayefi/Calgary Catholic Immigration Society (CCIS)/5-2.jpg",
+      "/projects/tayefi/Calgary Catholic Immigration Society (CCIS)/6-2.jpg",
+    ],
+    industry: "Religion",
+    category: "Religion",
+    subIndustry: "Religion",
+    client: "",
+    status: "",
+    location: "Margaret Chisholm Resettlement Centre 23 Mcdougall Court NE, Calgary",
+    year: "",
+    brand: "tayefi",
+    description: ["The Calgary Catholic Immigration Society (CCIS) is looking to expand their facilities in order to provide more for the Alberta community by bringing their administrative services on site as well as potential expansion of occupancy capacity for incoming families and single people to Calgary.",
+      "MT Arch is working with the CCIS to propose an incorporation of the above services in an additional 2.5 story building with a half story parking included on the NW corner of the CCIS site. In addition to this, we would like to inspire the idea of reinforcing the unofficial pedestrian pathway that moves from the Bridgeland LRT station toward the 4st bridge in order to support broader community circulation."
+    ],
+    awards: [
+      "3 story underground parkade",
+      "11 story steel structure",
+      "Mixed-use building",
+      "Main floor commercial",
+      "4 story/96 room hotel",
+      "6 story residential apartments/95 units"
+    ],
+  },
 ];
 
 export default projectsData;

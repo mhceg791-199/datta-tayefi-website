@@ -354,7 +354,7 @@ const projectsData = [
     brand: "tayefi",
     by: "Max Tayefi Architect ",
     description: [],
-    awards: ["Prime Consultant, Architecture"],
+    // awards: ["Prime Consultant, Architecture"],
   },
   {
     name: "Cold Lake Apartment",

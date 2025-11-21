@@ -12,12 +12,7 @@ function About() {
     "Within Mosaic’s vision of unity and purpose, their convergence felt less like a decision and more like an evolution — a natural alignment of capability, experience, and ambition.",
     "From that alignment, Datta & Tayefi emerged. Not as a simple merge, but as a new powerhouse — strengthened by two proven legacies and guided by Mosaic Holding’s belief that greatness is created when the right pieces come together with intention.",
     "Today, Datta & Tayefi reflects that philosophy: purposeful, unified, and built on the combined strength of firms that have already shaped cities, cultures, and communities around the world.",
- 
   ];
-
-  
-  // const paragraphs2 = [
-  //    ];
 
   return (
     <>
@@ -27,8 +22,6 @@ function About() {
         firstWord="Our "
         secondWord="Story"
         paragraphs={paragraphs}
-        paragraphs2={paragraphs2}
-        // paragraphs3={paragraphs3}
         particleColors={["#e0e0d4", "#e0e0d4"]}
         height="h-[85vh] md:h-[65vh]"
       />

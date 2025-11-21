@@ -41,7 +41,7 @@ function App() {
                   path="projects/category/:category"
                   element={<CategoryProjects />}
                 />
-                <Route path="people" element={<Career />} />
+                <Route path="career" element={<Career />} />
                 <Route path="contact-us" element={<ContactUs />} />
                 <Route path="terms" element={<Terms />} />
                 <Route path="privacy" element={<Privacy />} />

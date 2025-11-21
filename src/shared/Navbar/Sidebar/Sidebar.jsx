@@ -308,7 +308,7 @@ export function SidebarWithBurgerMenu() {
                     }`}
                   >
                     <i className="fa-solid fa-person-running text-xl pe-2"></i>{" "}
-                    Career{" "}
+                    CAREER{" "}
                   </Typography>
                 </AccordionHeader>
               </ListItem>

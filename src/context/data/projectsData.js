@@ -485,12 +485,7 @@ const projectsData = [
       "MT Arch is working with the CCIS to propose an incorporation of the above services in an additional 2.5 story building with a half story parking included on the NW corner of the CCIS site. In addition to this, we would like to inspire the idea of reinforcing the unofficial pedestrian pathway that moves from the Bridgeland LRT station toward the 4st bridge in order to support broader community circulation."
     ],
     awards: [
-      "3 story underground parkade",
-      "11 story steel structure",
-      "Mixed-use building",
-      "Main floor commercial",
-      "4 story/96 room hotel",
-      "6 story residential apartments/95 units"
+      
     ],
   },
 ];

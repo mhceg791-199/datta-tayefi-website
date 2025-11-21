@@ -18,6 +18,7 @@ export default function ProjectsDetails() {
     location,
     status,
     client,
+    by,
     subIndustry,
     industry,
     imgs,
@@ -36,6 +37,7 @@ export default function ProjectsDetails() {
         year={year}
         description={description}
         awards={awards}
+        by={by}
       />
       <GalleryDetails imgs={imgs} />
 

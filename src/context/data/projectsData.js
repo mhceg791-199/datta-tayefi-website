@@ -22,6 +22,7 @@ const projectsData = [
     status: "Completed",
     location: "Canada",
     year: "2010",
+    by: "Arup Datta Architect",
     brand: "datta",
     awards: [
       "The Americas Property Awards 2014-2015 — Best Retail Architecture (Canada)",
@@ -57,6 +58,7 @@ const projectsData = [
     status: "Completed",
     location: "Canada",
     year: "2015",
+    by: "Arup Datta Architect",
     brand: "datta",
     description: [
       "The Generations Calgary project in Skyview Ranch combines senior care with intergenerational living. It features 120 continuing care suites, an Early Childhood Development Centre, and a multi-purpose hall, fostering connections between residents of all ages. Focused on compassion, dignity, and community service, this initiative enhances social engagement and well-being.",
@@ -74,6 +76,7 @@ const projectsData = [
     location: "Canada",
     year: "2012",
     brand: "datta",
+    by: "Arup Datta Architect",
     description: [
       "Callaghan Ravines is a multi-family condominium and townhouse development by Rohit Homes, part of the Rohit Group of Companies. Located in the Callaghan neighborhood, the project offers diverse housing options surrounded by natural ravine landscapes and urban amenities.",
     ],
@@ -100,6 +103,7 @@ const projectsData = [
     location: "Canada",
     year: "2018",
     brand: "datta",
+    by: "Arup Datta Architect",
     description: [
       "The Walden Community – Senior's Residence, known as Walden Heights, is a rental community designed for active adults aged 55 and older, located in Walden, Orange County, New York. The project comprises luxurious two-bedroom residences and amenities such as a fitness center, yoga center, club room, theater, and arts and crafts room. It is situated near local attractions, shopping, and dining options.",
     ],
@@ -139,6 +143,7 @@ const projectsData = [
     location: "Canada",
     year: "2020",
     brand: "datta",
+    by: "Arup Datta Architect",
     description: [
       "West Edmonton Mall (WEM), located in Edmonton, Alberta, is the largest shopping mall in Canada and the second largest in North America, covering 5.3 million square feet. It features over 800 stores, entertainment venues, and attractions, making it a major retail and leisure destination.",
     ],
@@ -155,6 +160,7 @@ const projectsData = [
     location: "USA",
     year: "2016",
     brand: "datta",
+    by: "Arup Datta Architect",
     description: [
       "The Osheana Condominiums in Edmonton, AB, is a residential development located in the Ozerna neighborhood. The project offers modern living spaces with contemporary amenities. ",
     ],
@@ -171,6 +177,7 @@ const projectsData = [
     location: "Canada",
     year: "2019",
     brand: "datta",
+    by: "Arup Datta Architect",
     description: [
       "One Denver Place is a mixed-use development in downtown Denver, Colorado, completed in 1981 by Devco Property Inc. The complex includes two towers, with the South Tower standing 34 stories and the North Tower 23 stories. It features office space, retail areas, and a bridge connecting to nearby buildings like the Ritz-Carlton. The project was designed by Marvin E. Knedler & Assoc. Architects, P.C. and has earned awards for its green design, including the Gold LEED-EB Label.",
     ],
@@ -191,6 +198,7 @@ const projectsData = [
     location: "USA",
     year: "2006",
     brand: "datta",
+    by: "Arup Datta Architect",
     description: [
       "The Mall of America (MOA) in Bloomington, Minnesota, is a major retail and entertainment complex, spanning 5.6 million square feet with over 520 stores. It attracts more than 43 million visitors annually.",
     ],
@@ -211,6 +219,7 @@ const projectsData = [
     location: "Canada",
     year: "2023",
     brand: "datta",
+    by: "Arup Datta Architect",
     description: [
       "The Nigerian Industrial Bank Headquarters, Convention Centre, and Shopping Complex in Abuja is a mixed-use development that serves as the headquarters for the Nigerian Industrial Bank (NIB). The complex includes office spaces for NIB, a convention centre for large events, and a shopping complex with retail, dining, and entertainment options, contributing to the city's economic growth.",
     ],
@@ -236,6 +245,7 @@ const projectsData = [
     location: "Canada",
     year: "2023",
     brand: "datta",
+    by: "Arup Datta Architect",
     description: [
       "The Olympic Center in Calgary, AB, primarily serves the Sports and Recreation industry, focusing on Sports Facilities Management and Community Recreation Services. It includes WinSport Canada Olympic Park, originally built for the 1988 Winter Olympics, offering ski, snowboard, and bobsleigh facilities, and the Markin MacPhail Centre for sports training. The Olympic Plaza in downtown Calgary is a community space being redeveloped for arts and events. The client for these facilities is WinSport, a non-profit organization promoting sports and recreation in Canada.",
     ],
@@ -260,6 +270,7 @@ const projectsData = [
     location: "34 6A ST NE",
     year: "",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [
       "The project of McDougall Road aims to bring the community together within the vision of the Bridgeland – Riverside community’s future. The six-story residential building with a commercial/retail component at the street level intends to have a non-obstructive street view, working in harmony with its neighboring buildings.",
       "Inspired by Cerda’s master plan of Barcelona; the building block intends to create a dialog with the Bridgeland community by creating a strong pedestrian connection and respecting the existing context and providing services such as a public courtyard in its center, incorporating green space at the upper levels, retail value, parking, charging stations and bicycle parking to the community block. The building would include underground parking and the units would range from bachelor suites to luxury three bedroom apartments.",
@@ -278,6 +289,7 @@ const projectsData = [
     location: "",
     year: "",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [],
   },
 
@@ -297,6 +309,7 @@ const projectsData = [
     location: "Calgary, Alberta",
     year: "2015",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [
       "This building is a four-story wood structure that features two hotels, each containing 100 rooms per building, connected by a restaurant, multiple meeting rooms, a rooftop patio and a conference center in the middle. Each hotel is broken into two pockets of rooms, connected with an open space with natural light. ",
     ],
@@ -314,6 +327,7 @@ const projectsData = [
     location: "Calgary, Alberta",
     year: "2015",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [],
     awards: [
       "Underground parkade",
@@ -338,6 +352,7 @@ const projectsData = [
     location: "Calgary, Alberta",
     year: "2015",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [],
     awards: ["Prime Consultant, Architecture"],
   },
@@ -353,6 +368,7 @@ const projectsData = [
     location: "Calgary, Alberta",
     year: "2012",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [],
     awards: [
       "4 story wood structure",
@@ -378,6 +394,7 @@ const projectsData = [
     location: "Calgary, Alberta",
     year: "",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [],
     awards: [
       "Unique concept design, mix of conventional townhouse and",
@@ -405,6 +422,7 @@ const projectsData = [
     location: "Calgary, Alberta",
     year: "",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [],
     awards: [
       "4 story wood structure",
@@ -429,6 +447,7 @@ const projectsData = [
     location: "Calgary, Alberta",
     year: "",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [],
     awards: [
       "3.5 story wood structure",
@@ -440,9 +459,7 @@ const projectsData = [
   {
     name: "36 St NE Office & Retail",
     slug: slugify("36 St NE Office & Retail"),
-    imgs: [
-      "/projects/tayefi/36 St NE Office & Retail/1-render-1.jpg",
-    ],
+    imgs: ["/projects/tayefi/36 St NE Office & Retail/1-render-1.jpg"],
     industry: "Mixed Use",
     category: "Mixed Use",
     subIndustry: "Mixed Use",
@@ -451,6 +468,7 @@ const projectsData = [
     location: "Ft McMurray, Alberta",
     year: "",
     brand: "tayefi",
+    by: "Max Tayefi Architect ",
     description: [],
     awards: [
       "3 story underground parkade",
@@ -458,7 +476,7 @@ const projectsData = [
       "Mixed-use building",
       "Main floor commercial",
       "4 story/96 room hotel",
-      "6 story residential apartments/95 units"
+      "6 story residential apartments/95 units",
     ],
   },
 
@@ -478,15 +496,16 @@ const projectsData = [
     subIndustry: "Religion",
     client: "",
     status: "",
-    location: "Margaret Chisholm Resettlement Centre 23 Mcdougall Court NE, Calgary",
+    location:
+      "Margaret Chisholm Resettlement Centre 23 Mcdougall Court NE, Calgary",
     year: "",
     brand: "tayefi",
-    description: ["The Calgary Catholic Immigration Society (CCIS) is looking to expand their facilities in order to provide more for the Alberta community by bringing their administrative services on site as well as potential expansion of occupancy capacity for incoming families and single people to Calgary.",
-      "MT Arch is working with the CCIS to propose an incorporation of the above services in an additional 2.5 story building with a half story parking included on the NW corner of the CCIS site. In addition to this, we would like to inspire the idea of reinforcing the unofficial pedestrian pathway that moves from the Bridgeland LRT station toward the 4st bridge in order to support broader community circulation."
+    by: "Max Tayefi Architect ",
+    description: [
+      "The Calgary Catholic Immigration Society (CCIS) is looking to expand their facilities in order to provide more for the Alberta community by bringing their administrative services on site as well as potential expansion of occupancy capacity for incoming families and single people to Calgary.",
+      "MT Arch is working with the CCIS to propose an incorporation of the above services in an additional 2.5 story building with a half story parking included on the NW corner of the CCIS site. In addition to this, we would like to inspire the idea of reinforcing the unofficial pedestrian pathway that moves from the Bridgeland LRT station toward the 4st bridge in order to support broader community circulation.",
     ],
-    awards: [
-      
-    ],
+    awards: [],
   },
 ];
 

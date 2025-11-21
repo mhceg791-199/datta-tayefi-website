@@ -87,7 +87,8 @@ export const ProjectCard = ({
     status,
     year,
     description,
-    awards
+    awards,
+    by
 }) => {
     // التحقق من وجود الوصف كـ Array ويحتوي على عناصر
     const hasDescription = description && Array.isArray(description) && description.length > 0;
@@ -128,7 +129,7 @@ export const ProjectCard = ({
                                 <SectionHeader firstWord="Project Information" />
                             </div>
                             <p className="text-mainGold font-semibold tracking-wide text-lg mt-3">
-                                By Arup Datta Architect
+                                By {by}
                             </p>
                             
                             {/* --- عرض مشروط للحقول الفردية --- */}

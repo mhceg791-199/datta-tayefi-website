@@ -250,6 +250,28 @@ const projectsData = [
       "The Olympic Center in Calgary, AB, primarily serves the Sports and Recreation industry, focusing on Sports Facilities Management and Community Recreation Services. It includes WinSport Canada Olympic Park, originally built for the 1988 Winter Olympics, offering ski, snowboard, and bobsleigh facilities, and the Markin MacPhail Centre for sports training. The Olympic Plaza in downtown Calgary is a community space being redeveloped for arts and events. The client for these facilities is WinSport, a non-profit organization promoting sports and recreation in Canada.",
     ],
   },
+  {
+    name: "Paradiso Greystone Plaza",
+    slug: slugify("Paradiso Greystone Plaza"),
+    imgs: [
+      "/projects/Paradiso Greystone/1.jpg",
+      "/projects/Paradiso Greystone/2.jpg",
+      
+    ],
+    industry: "Commercial",
+    category: "Commercial",
+    subIndustry: "Commercial",
+    client: "",
+    status: "Completed",
+    location: "",
+    year: "",
+    brand: "datta",
+    by: "Arup Datta Architect",
+    description: [
+      "Greystone Plaza is a commercial development located in Cochrane, Canada, within the Business Industrial (I-B) District. The project occupies a parcel area of 7,208.94 sq.m (approximately 1.78 acres / 0.72 hectares) and comprises retail, administrative, and childcare facilities.",
+      "The development combines modern architectural design with functional planning, providing a balanced mix of commercial spaces and community-oriented facilities to serve the surrounding area."
+    ],
+  },
 
   {
     name: "Mcdougall Multi-Family",

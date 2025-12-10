@@ -1,229 +1,229 @@
 export const slugify = (name) => name.toLowerCase().replace(/\s+/g, "-");
 
 const projectsData = [
-  {
-    name: "Lexus of Edmonton South",
-    slug: slugify("Lexus of Edmonton South"),
-    imgs: [
-      "/projects/Lexus/1.webp",
-      "/projects/Lexus/2.webp",
-      "/projects/Lexus/3.webp",
-      "/projects/Lexus/4.webp",
-      "/projects/Lexus/5.webp",
-      "/projects/Lexus/6.webp",
-      "/projects/Lexus/7.webp",
-      "/projects/Lexus/8.webp",
-      "/projects/Lexus/9.webp",
-    ],
-    industry: "Interior Design & Commercial",
-    category: "Interior Design",
-    subIndustry: "Luxury Vehicle Dealership",
-    client: "Lexus of Edmonton",
-    status: "Completed",
-    location: "Canada",
-    year: "2010",
-    by: "Arup Datta Architect",
-    brand: "datta",
-    awards: [
-      "The Americas Property Awards 2014-2015 — Best Retail Architecture (Canada)",
-      "From the International Property Awards (U.K.)",
-      "Listed among the Top 5 World’s Best in Retail Architecture, Dubai 2014-2015",
-      "Exhibited in the World Architecture Festival 2013, Singapore",
-      "Featured in the Edmonton Urban Design Awards 2013",
-      "Featured in World Building Directory — Showrooms Canada (2013)",
-    ],
+  // {
+  //   name: "Lexus of Edmonton South",
+  //   slug: slugify("Lexus of Edmonton South"),
+  //   imgs: [
+  //     "/projects/Lexus/1.webp",
+  //     "/projects/Lexus/2.webp",
+  //     "/projects/Lexus/3.webp",
+  //     "/projects/Lexus/4.webp",
+  //     "/projects/Lexus/5.webp",
+  //     "/projects/Lexus/6.webp",
+  //     "/projects/Lexus/7.webp",
+  //     "/projects/Lexus/8.webp",
+  //     "/projects/Lexus/9.webp",
+  //   ],
+  //   industry: "Interior Design & Commercial",
+  //   category: "Interior Design",
+  //   subIndustry: "Luxury Vehicle Dealership",
+  //   client: "Lexus of Edmonton",
+  //   status: "Completed",
+  //   location: "Canada",
+  //   year: "2010",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [
+  //     "The Americas Property Awards 2014-2015 — Best Retail Architecture (Canada)",
+  //     "From the International Property Awards (U.K.)",
+  //     "Listed among the Top 5 World’s Best in Retail Architecture, Dubai 2014-2015",
+  //     "Exhibited in the World Architecture Festival 2013, Singapore",
+  //     "Featured in the Edmonton Urban Design Awards 2013",
+  //     "Featured in World Building Directory — Showrooms Canada (2013)",
+  //   ],
 
-    description: [
-      "Located at the highly visible intersection of Ellerslie Road and Calgary Trail in South Edmonton, this landmark facility is one of Alberta’s largest luxury auto retail complexes, spanning approximately 50,700 sq. ft. The development includes new, hybrid, and pre-owned vehicle showrooms, a servicing area, car wash, and Edmonton’s first illuminated car display tower — visible from three sides and designed as an architectural statement day and night.",
-      "The project maximizes vehicular parking while integrating landscaped zones and visually stimulating features such as media walls, ramps, double-height glazing, and an open-concept retail lounge anchored by a waterfall centerpiece. Recognized internationally for its innovative design, the project was exhibited at the World Architecture Festival 2013 (Singapore) and featured in the Edmonton Urban Design Awards 2013. It has been consistently praised for creating a strong visual identity and elevating the retail experience in automotive architecture.",
-    ],
-  },
-  {
-    name: "Multi-Generational Housing (M.G.H.), Calgary, AB",
-    slug: slugify("Multi-Generational Housing (M.G.H.), Calgary, AB"),
-    imgs: [
-      "/projects/Multi/1.webp",
-      "/projects/Multi/2.webp",
-      "/projects/Multi/3.webp",
-      "/projects/Multi/4.webp",
-      "/projects/Multi/5.webp",
-      "/projects/Multi/6.webp",
-      "/projects/Multi/7.webp",
-      "/projects/Multi/8.webp",
-    ],
-    industry: "Healthcare",
-    category: "Healthcare",
-    subIndustry: "Retirement Communities",
-    client: "Ismaili Muslim Community",
-    status: "Completed",
-    location: "Canada",
-    year: "2015",
-    by: "Arup Datta Architect",
-    brand: "datta",
-    description: [
-      "The Generations Calgary project in Skyview Ranch combines senior care with intergenerational living. It features 120 continuing care suites, an Early Childhood Development Centre, and a multi-purpose hall, fostering connections between residents of all ages. Focused on compassion, dignity, and community service, this initiative enhances social engagement and well-being.",
-    ],
-  },
-  {
-    name: "Callaghan Ravines, Edmonton, AB",
-    slug: slugify("Callaghan Ravines, Edmonton, AB"),
-    imgs: ["/projects/Mackinnion/1.webp", "/projects/Mackinnion/2.webp"],
-    industry: "Residential",
-    category: "Residential",
-    subIndustry: "Housing Construction",
-    client: "Rohit Group of Companies",
-    status: "Completed",
-    location: "Canada",
-    year: "2012",
-    brand: "datta",
-    by: "Arup Datta Architect",
-    description: [
-      "Callaghan Ravines is a multi-family condominium and townhouse development by Rohit Homes, part of the Rohit Group of Companies. Located in the Callaghan neighborhood, the project offers diverse housing options surrounded by natural ravine landscapes and urban amenities.",
-    ],
-  },
-  {
-    name: "The Walden Community – Senior's Residence",
-    slug: slugify("The Walden Community – Senior's Residence"),
-    imgs: [
-      "/projects/Walden/1.webp",
-      "/projects/Walden/2.webp",
-      "/projects/Walden/3.webp",
-      "/projects/Walden/4.webp",
-      "/projects/Walden/5.webp",
-      "/projects/Walden/6.webp",
-      "/projects/Walden/7.webp",
-      "/projects/Walden/8.webp",
-      "/projects/Walden/9.webp",
-    ],
-    industry: "Residential",
-    category: "Residential",
-    subIndustry: "Active Adult Communities",
-    client: "Walden",
-    status: "Completed",
-    location: "Canada",
-    year: "2018",
-    brand: "datta",
-    by: "Arup Datta Architect",
-    description: [
-      "The Walden Community – Senior's Residence, known as Walden Heights, is a rental community designed for active adults aged 55 and older, located in Walden, Orange County, New York. The project comprises luxurious two-bedroom residences and amenities such as a fitness center, yoga center, club room, theater, and arts and crafts room. It is situated near local attractions, shopping, and dining options.",
-    ],
-  },
-  {
-    name: "West Edmonton Mall",
-    slug: slugify("West Edmonton Mall"),
-    imgs: [
-      "/projects/West/1.webp",
-      "/projects/West/2.webp",
-      "/projects/West/3.webp",
-      "/projects/West/4.webp",
-      "/projects/West/5.webp",
-      "/projects/West/6.webp",
-      "/projects/West/7.webp",
-      "/projects/West/8.webp",
-      "/projects/West/9.webp",
-      "/projects/West/10.webp",
-      "/projects/West/11.webp",
-      "/projects/West/12.webp",
-      "/projects/West/13.webp",
-      "/projects/West/14.webp",
-      "/projects/West/15.webp",
-      "/projects/West/16.webp",
-      "/projects/West/17.webp",
-      "/projects/West/18.webp",
-      "/projects/West/19.webp",
-      "/projects/West/20.webp",
-      "/projects/West/21.webp",
-      "/projects/West/22.webp",
-    ],
-    industry: "Retail",
-    category: "Retail",
-    subIndustry: "Commercial",
-    client: "Edmonton",
-    status: "Completed",
-    location: "Canada",
-    year: "2020",
-    brand: "datta",
-    by: "Arup Datta Architect",
-    description: [
-      "West Edmonton Mall (WEM), located in Edmonton, Alberta, is the largest shopping mall in Canada and the second largest in North America, covering 5.3 million square feet. It features over 800 stores, entertainment venues, and attractions, making it a major retail and leisure destination.",
-    ],
-  },
-  {
-    name: "Osheana Condominiums",
-    slug: slugify("Osheana Condominiums"),
-    imgs: ["/projects/Oceanic/1.webp"],
-    industry: "Residential",
-    category: "Residential",
-    subIndustry: "Residential",
-    client: "Osheana",
-    status: "Completed",
-    location: "USA",
-    year: "2016",
-    brand: "datta",
-    by: "Arup Datta Architect",
-    description: [
-      "The Osheana Condominiums in Edmonton, AB, is a residential development located in the Ozerna neighborhood. The project offers modern living spaces with contemporary amenities. ",
-    ],
-  },
-  {
-    name: "One Denver Place",
-    slug: slugify("One Denver Place"),
-    imgs: ["/projects/one/1.webp", "/projects/one/2.webp"],
-    industry: "Commercial",
-    category: "Commercial",
-    subIndustry: "Administrative",
-    client: "Denver",
-    status: "Completed",
-    location: "Canada",
-    year: "2019",
-    brand: "datta",
-    by: "Arup Datta Architect",
-    description: [
-      "One Denver Place is a mixed-use development in downtown Denver, Colorado, completed in 1981 by Devco Property Inc. The complex includes two towers, with the South Tower standing 34 stories and the North Tower 23 stories. It features office space, retail areas, and a bridge connecting to nearby buildings like the Ritz-Carlton. The project was designed by Marvin E. Knedler & Assoc. Architects, P.C. and has earned awards for its green design, including the Gold LEED-EB Label.",
-    ],
-  },
-  {
-    name: "The Mall of America",
-    slug: slugify("The Mall of America"),
-    imgs: [
-      "/projects/Mall/1.webp",
-      "/projects/Mall/2.webp",
-      "/projects/Mall/3.webp",
-    ],
-    industry: "Retail",
-    category: "Retail",
-    subIndustry: "Commercial",
-    client: "Triple Five",
-    status: "Completed",
-    location: "USA",
-    year: "2006",
-    brand: "datta",
-    by: "Arup Datta Architect",
-    description: [
-      "The Mall of America (MOA) in Bloomington, Minnesota, is a major retail and entertainment complex, spanning 5.6 million square feet with over 520 stores. It attracts more than 43 million visitors annually.",
-    ],
-  },
-  {
-    name: "Nigerian Industrial Bank Headquarters",
-    slug: slugify("Nigerian Industrial Bank Headquarters"),
-    imgs: [
-      "/projects/Nigerian/1.webp",
-      "/projects/Nigerian/2.webp",
-      "/projects/Nigerian/3.webp",
-    ],
-    industry: "Residential",
-    category: "Commercial",
-    subIndustry: "Commercial",
-    client: "Nigerian Industrial Bank (NIB)",
-    status: "Completed",
-    location: "Canada",
-    year: "2023",
-    brand: "datta",
-    by: "Arup Datta Architect",
-    description: [
-      "The Nigerian Industrial Bank Headquarters, Convention Centre, and Shopping Complex in Abuja is a mixed-use development that serves as the headquarters for the Nigerian Industrial Bank (NIB). The complex includes office spaces for NIB, a convention centre for large events, and a shopping complex with retail, dining, and entertainment options, contributing to the city's economic growth.",
-    ],
-  },
+  //   description: [
+  //     "Located at the highly visible intersection of Ellerslie Road and Calgary Trail in South Edmonton, this landmark facility is one of Alberta’s largest luxury auto retail complexes, spanning approximately 50,700 sq. ft. The development includes new, hybrid, and pre-owned vehicle showrooms, a servicing area, car wash, and Edmonton’s first illuminated car display tower — visible from three sides and designed as an architectural statement day and night.",
+  //     "The project maximizes vehicular parking while integrating landscaped zones and visually stimulating features such as media walls, ramps, double-height glazing, and an open-concept retail lounge anchored by a waterfall centerpiece. Recognized internationally for its innovative design, the project was exhibited at the World Architecture Festival 2013 (Singapore) and featured in the Edmonton Urban Design Awards 2013. It has been consistently praised for creating a strong visual identity and elevating the retail experience in automotive architecture.",
+  //   ],
+  // },
+  // {
+  //   name: "Multi-Generational Housing (M.G.H.), Calgary, AB",
+  //   slug: slugify("Multi-Generational Housing (M.G.H.), Calgary, AB"),
+  //   imgs: [
+  //     "/projects/Multi/1.webp",
+  //     "/projects/Multi/2.webp",
+  //     "/projects/Multi/3.webp",
+  //     "/projects/Multi/4.webp",
+  //     "/projects/Multi/5.webp",
+  //     "/projects/Multi/6.webp",
+  //     "/projects/Multi/7.webp",
+  //     "/projects/Multi/8.webp",
+  //   ],
+  //   industry: "Healthcare",
+  //   category: "Healthcare",
+  //   subIndustry: "Retirement Communities",
+  //   client: "Ismaili Muslim Community",
+  //   status: "Completed",
+  //   location: "Canada",
+  //   year: "2015",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   description: [
+  //     "The Generations Calgary project in Skyview Ranch combines senior care with intergenerational living. It features 120 continuing care suites, an Early Childhood Development Centre, and a multi-purpose hall, fostering connections between residents of all ages. Focused on compassion, dignity, and community service, this initiative enhances social engagement and well-being.",
+  //   ],
+  // },
+  // {
+  //   name: "Callaghan Ravines, Edmonton, AB",
+  //   slug: slugify("Callaghan Ravines, Edmonton, AB"),
+  //   imgs: ["/projects/Mackinnion/1.webp", "/projects/Mackinnion/2.webp"],
+  //   industry: "Residential",
+  //   category: "Residential",
+  //   subIndustry: "Housing Construction",
+  //   client: "Rohit Group of Companies",
+  //   status: "Completed",
+  //   location: "Canada",
+  //   year: "2012",
+  //   brand: "datta",
+  //   by: "Arup Datta Architect",
+  //   description: [
+  //     "Callaghan Ravines is a multi-family condominium and townhouse development by Rohit Homes, part of the Rohit Group of Companies. Located in the Callaghan neighborhood, the project offers diverse housing options surrounded by natural ravine landscapes and urban amenities.",
+  //   ],
+  // },
+  // {
+  //   name: "The Walden Community – Senior's Residence",
+  //   slug: slugify("The Walden Community – Senior's Residence"),
+  //   imgs: [
+  //     "/projects/Walden/1.webp",
+  //     "/projects/Walden/2.webp",
+  //     "/projects/Walden/3.webp",
+  //     "/projects/Walden/4.webp",
+  //     "/projects/Walden/5.webp",
+  //     "/projects/Walden/6.webp",
+  //     "/projects/Walden/7.webp",
+  //     "/projects/Walden/8.webp",
+  //     "/projects/Walden/9.webp",
+  //   ],
+  //   industry: "Residential",
+  //   category: "Residential",
+  //   subIndustry: "Active Adult Communities",
+  //   client: "Walden",
+  //   status: "Completed",
+  //   location: "Canada",
+  //   year: "2018",
+  //   brand: "datta",
+  //   by: "Arup Datta Architect",
+  //   description: [
+  //     "The Walden Community – Senior's Residence, known as Walden Heights, is a rental community designed for active adults aged 55 and older, located in Walden, Orange County, New York. The project comprises luxurious two-bedroom residences and amenities such as a fitness center, yoga center, club room, theater, and arts and crafts room. It is situated near local attractions, shopping, and dining options.",
+  //   ],
+  // },
+  // {
+  //   name: "West Edmonton Mall",
+  //   slug: slugify("West Edmonton Mall"),
+  //   imgs: [
+  //     "/projects/West/1.webp",
+  //     "/projects/West/2.webp",
+  //     "/projects/West/3.webp",
+  //     "/projects/West/4.webp",
+  //     "/projects/West/5.webp",
+  //     "/projects/West/6.webp",
+  //     "/projects/West/7.webp",
+  //     "/projects/West/8.webp",
+  //     "/projects/West/9.webp",
+  //     "/projects/West/10.webp",
+  //     "/projects/West/11.webp",
+  //     "/projects/West/12.webp",
+  //     "/projects/West/13.webp",
+  //     "/projects/West/14.webp",
+  //     "/projects/West/15.webp",
+  //     "/projects/West/16.webp",
+  //     "/projects/West/17.webp",
+  //     "/projects/West/18.webp",
+  //     "/projects/West/19.webp",
+  //     "/projects/West/20.webp",
+  //     "/projects/West/21.webp",
+  //     "/projects/West/22.webp",
+  //   ],
+  //   industry: "Retail",
+  //   category: "Retail",
+  //   subIndustry: "Commercial",
+  //   client: "Edmonton",
+  //   status: "Completed",
+  //   location: "Canada",
+  //   year: "2020",
+  //   brand: "datta",
+  //   by: "Arup Datta Architect",
+  //   description: [
+  //     "West Edmonton Mall (WEM), located in Edmonton, Alberta, is the largest shopping mall in Canada and the second largest in North America, covering 5.3 million square feet. It features over 800 stores, entertainment venues, and attractions, making it a major retail and leisure destination.",
+  //   ],
+  // },
+  // {
+  //   name: "Osheana Condominiums",
+  //   slug: slugify("Osheana Condominiums"),
+  //   imgs: ["/projects/Oceanic/1.webp"],
+  //   industry: "Residential",
+  //   category: "Residential",
+  //   subIndustry: "Residential",
+  //   client: "Osheana",
+  //   status: "Completed",
+  //   location: "USA",
+  //   year: "2016",
+  //   brand: "datta",
+  //   by: "Arup Datta Architect",
+  //   description: [
+  //     "The Osheana Condominiums in Edmonton, AB, is a residential development located in the Ozerna neighborhood. The project offers modern living spaces with contemporary amenities. ",
+  //   ],
+  // },
+  // {
+  //   name: "One Denver Place",
+  //   slug: slugify("One Denver Place"),
+  //   imgs: ["/projects/one/1.webp", "/projects/one/2.webp"],
+  //   industry: "Commercial",
+  //   category: "Commercial",
+  //   subIndustry: "Administrative",
+  //   client: "Denver",
+  //   status: "Completed",
+  //   location: "Canada",
+  //   year: "2019",
+  //   brand: "datta",
+  //   by: "Arup Datta Architect",
+  //   description: [
+  //     "One Denver Place is a mixed-use development in downtown Denver, Colorado, completed in 1981 by Devco Property Inc. The complex includes two towers, with the South Tower standing 34 stories and the North Tower 23 stories. It features office space, retail areas, and a bridge connecting to nearby buildings like the Ritz-Carlton. The project was designed by Marvin E. Knedler & Assoc. Architects, P.C. and has earned awards for its green design, including the Gold LEED-EB Label.",
+  //   ],
+  // },
+  // {
+  //   name: "The Mall of America",
+  //   slug: slugify("The Mall of America"),
+  //   imgs: [
+  //     "/projects/Mall/1.webp",
+  //     "/projects/Mall/2.webp",
+  //     "/projects/Mall/3.webp",
+  //   ],
+  //   industry: "Retail",
+  //   category: "Retail",
+  //   subIndustry: "Commercial",
+  //   client: "Triple Five",
+  //   status: "Completed",
+  //   location: "USA",
+  //   year: "2006",
+  //   brand: "datta",
+  //   by: "Arup Datta Architect",
+  //   description: [
+  //     "The Mall of America (MOA) in Bloomington, Minnesota, is a major retail and entertainment complex, spanning 5.6 million square feet with over 520 stores. It attracts more than 43 million visitors annually.",
+  //   ],
+  // },
+  // {
+  //   name: "Nigerian Industrial Bank Headquarters",
+  //   slug: slugify("Nigerian Industrial Bank Headquarters"),
+  //   imgs: [
+  //     "/projects/Nigerian/1.webp",
+  //     "/projects/Nigerian/2.webp",
+  //     "/projects/Nigerian/3.webp",
+  //   ],
+  //   industry: "Residential",
+  //   category: "Commercial",
+  //   subIndustry: "Commercial",
+  //   client: "Nigerian Industrial Bank (NIB)",
+  //   status: "Completed",
+  //   location: "Canada",
+  //   year: "2023",
+  //   brand: "datta",
+  //   by: "Arup Datta Architect",
+  //   description: [
+  //     "The Nigerian Industrial Bank Headquarters, Convention Centre, and Shopping Complex in Abuja is a mixed-use development that serves as the headquarters for the Nigerian Industrial Bank (NIB). The complex includes office spaces for NIB, a convention centre for large events, and a shopping complex with retail, dining, and entertainment options, contributing to the city's economic growth.",
+  //   ],
+  // },
   // {
   //   name: "Olympic Center",
   //   slug: slugify("Olympic Center"),
@@ -250,28 +250,34 @@ const projectsData = [
   //     "The Olympic Center in Calgary, AB, primarily serves the Sports and Recreation industry, focusing on Sports Facilities Management and Community Recreation Services. It includes WinSport Canada Olympic Park, originally built for the 1988 Winter Olympics, offering ski, snowboard, and bobsleigh facilities, and the Markin MacPhail Centre for sports training. The Olympic Plaza in downtown Calgary is a community space being redeveloped for arts and events. The client for these facilities is WinSport, a non-profit organization promoting sports and recreation in Canada.",
   //   ],
   // },
-  {
-    name: "Paradiso Greystone Plaza",
-    slug: slugify("Paradiso Greystone Plaza"),
-    imgs: [
-      "/projects/Paradiso Greystone/1.jpg",
-      "/projects/Paradiso Greystone/2.jpg",
+  // {
+  //   name: "Paradiso Greystone Plaza",
+  //   slug: slugify("Paradiso Greystone Plaza"),
+  //   imgs: [
+  //     "/projects/Paradiso Greystone/1.jpg",
+  //     "/projects/Paradiso Greystone/2.jpg",
       
-    ],
-    industry: "Commercial",
-    category: "Commercial",
-    subIndustry: "Commercial",
-    client: "",
-    status: "Completed",
-    location: "",
-    year: "",
-    brand: "datta",
-    by: "Arup Datta Architect",
-    description: [
-      "Greystone Plaza is a commercial development located in Cochrane, Canada, within the Business Industrial (I-B) District. The project occupies a parcel area of 7,208.94 sq.m (approximately 1.78 acres / 0.72 hectares) and comprises retail, administrative, and childcare facilities.",
-      "The development combines modern architectural design with functional planning, providing a balanced mix of commercial spaces and community-oriented facilities to serve the surrounding area."
-    ],
-  },
+  //   ],
+  //   industry: "Commercial",
+  //   category: "Commercial",
+  //   subIndustry: "Commercial",
+  //   client: "",
+  //   status: "Completed",
+  //   location: "",
+  //   year: "",
+  //   brand: "datta",
+  //   by: "Arup Datta Architect",
+  //   description: [
+  //     "Greystone Plaza is a commercial development located in Cochrane, Canada, within the Business Industrial (I-B) District. The project occupies a parcel area of 7,208.94 sq.m (approximately 1.78 acres / 0.72 hectares) and comprises retail, administrative, and childcare facilities.",
+  //     "The development combines modern architectural design with functional planning, providing a balanced mix of commercial spaces and community-oriented facilities to serve the surrounding area."
+  //   ],
+  // },
+
+
+
+
+
+
 {
     name: "Beidaihe Resort",
     slug: slugify("Beidaihe Resort"),
@@ -853,6 +859,443 @@ const projectsData = [
   },
 
 
+  // {
+  //   name: "Office Building – Chennai (Concept Design)",
+  //   slug: slugify("Office Building – Chennai (Concept Design)"),
+  //   imgs: ["/projects/ChennaiOfficeConcept.png"],
+  //   industry: "Commercial / Office",
+  //   category: "Commercial",
+  //   subIndustry: "",
+  //   client: "",
+  //   status: "Concept",
+  //   location: "Chennai, India",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "Conceptual office design for Chennai demonstrating multiple architectural alternatives.",
+  //     "Façade uses granite, stone, and glass with high-tech services to enhance workplace functionality."
+  //   ]
+  // },
+
+  {
+    name: "Batra Centre",
+    slug: slugify("Batra Centre"),
+    imgs: ["/projects/BATRA CENTRE, Chennai, India.png"],
+    industry: "Commercial / Office",
+    category: "Commercial",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Chennai, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Class-A office building on constrained urban site in Chennai’s business district.",
+      "Exterior: Alucobond panels, reflective glazing, granite, stone. Linear site shape informed placement of southwest core for open office space."
+    ]
+  },
+
+  {
+    name: "Oceanic Tower",
+    slug: slugify("Oceanic Tower"),
+    imgs: ["/projects/OCEANIC , Chennai, India.jpg"],
+    industry: "Commercial / High-Rise Office / Retail",
+    category: "Commercial",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Chennai, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "15-storey, 180,000 sq.ft. high-tech office tower with column-free floors, retail, three levels of parking, and rooftop cafeteria.",
+      "Exterior: curtainwall glazing, green-tinted reflective glass, solar-ban glazing, granite, Alucobond panels."
+    ]
+  },
+  {
+    name: "Sohar Development Office Building",
+    slug: slugify("Sohar Development Office Building"),
+    imgs: ["/projects/SOHAR DEVELOPMENT OFFICE BUILDING2.jpg" , "/projects/SOHAR DEVELOPMENT OFFICE BUILDING.jpg" ],
+    industry: "Civic / Commercial Office / Municipal Building",
+    category: "Commercial",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Sohar, Oman",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Municipal structure with local architectural expression using locally sourced stone and recessed glazing.",
+      "Parking fully concealed at grade beneath elevated structure with landscaped public spaces."
+    ]
+  },
+  {
+    name: "Information Technology Park – Chennai",
+    slug: slugify("Information Technology Park – Chennai"),
+    imgs: ["/projects/INFORMATION  TECHNOLOGY  PARK, Chennai, India 2.jpg" , "/projects/INFORMATION  TECHNOLOGY  PARK, Chennai, India.jpg"],
+    industry: "Commercial / High-Rise Office / Technology Park",
+    category: "Commercial",
+    subIndustry: "Technology",
+    client: "",
+    status: "",
+    location: "Chennai, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "1.1 million sq.ft. development with 16-storey tower, 7-storey standalone parkade, landscaped plaza.",
+      "Column-free office floors (50,000 sq.ft.) with retail and rooftop cafeteria. Exterior: Alucobond panels, granite, curtainwall glazing."
+    ]
+  },
+  // {
+  //   name: "The Janus Building",
+  //   slug: slugify("The Janus Building"),
+  //   imgs: ["/projects/JanusBuilding.png"],
+  //   industry: "Mixed-Use (Residential, Commercial, Office)",
+  //   category: "Residential / Office / Retail",
+  //   subIndustry: "",
+  //   client: "",
+  //   status: "",
+  //   location: "Calgary, Alberta",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "Mixed-use development in Uptown Calgary combining luxury apartments, offices, and retail.",
+  //     "Construction cost approx. $4.5M."
+  //   ]
+  // },
+
+  // {
+  //   name: "Kensington Gate",
+  //   slug: slugify("Kensington Gate"),
+  //   imgs: ["/projects/KensingtonGate.png"],
+  //   industry: "Mixed-Use (Residential, Retail, Office)",
+  //   category: "Residential / Retail / Office",
+  //   subIndustry: "",
+  //   client: "",
+  //   status: "",
+  //   location: "Calgary, Alberta",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "127,450 sq.ft. mixed-use development with 83 apartment units, retail, offices, bank, and restaurant.",
+  //     "226 parking stalls. Construction cost approx. $11M, contributing to Kensington district revitalization."
+  //   ]
+  // },
+
+  {
+    name: "Hotel & Themed Suite Portfolio – Edmonton & International",
+    slug: slugify("Hotel & Themed Suite Portfolio – Edmonton & International"),
+    imgs: ["/projects/HotelPortfolio.png"],
+    industry: "Hospitality",
+    category: "Hotel / Suites / Mixed-Use",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Edmonton, Alberta & International",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Portfolio includes major Edmonton hotels and themed suites with mixed-use hospitality complexes.",
+      "Projects: Fantasy Hotel (360 units), Convention Inn South (300), Centre Suite Hotel (330), Argyll Hotel (60), Tower on the Park (80), plus themed suites (Roman, Polynesian, Coach, Truck)."
+    ]
+  },
+  // {
+  //   name: "The Kovai Grand Hotel",
+  //   slug: slugify("The Kovai Grand Hotel"),
+  //   imgs: ["/projects/KovaiGrandHotel.png"],
+  //   industry: "Hospitality",
+  //   category: "Hospitality",
+  //   subIndustry: "Luxury",
+  //   client: "",
+  //   status: "",
+  //   location: "Coimbatore, India",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "240-key five-star hotel with coffee shop, lobby bar, sports bar, three specialty restaurants, multiple banquet halls.",
+  //     "Amenity spaces: two-level spa & fitness centre, rooftop pool, infinity pool. Exterior: granite & aluminum curtain-wall with solar-ban glazing."
+  //   ]
+  // },
+
+  {
+    name: "Five-Star Luxury Hotel – Moscow",
+    slug: slugify("Five-Star Luxury Hotel – Moscow"),
+    imgs: ["/projects/FIVE STAR LUXURY HOTEL, Moscow, Russia.jpg"],
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "Luxury / Concept",
+    client: "",
+    status: "Concept",
+    location: "Moscow, Russia",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Conceptual design for 3,000-room luxury hotel with conference, retail, leisure, and recreation components."
+    ]
+  },
+
+  {
+    name: "Lucaya Beach Resort",
+    slug: slugify("Lucaya Beach Resort"),
+    imgs: ["/projects/LUCAYA BEACH RESORT, Bahamas.jpg"],
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "",
+    client: "",
+    status: "Concept",
+    location: "Bahamas",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "500-room oceanfront resort with integrated 250-room cardiac clinic/suite facility.",
+      "Leisure and recreation amenities integrated with wellness-focused accommodation."
+    ]
+  },
+  {
+    name: "Theme Hotel – Kuala Lumpur",
+    slug: slugify("Theme Hotel – Kuala Lumpur"),
+    imgs: ["/projects/THEME HOTEL, Kuala Lumpur, Malaysia.jpg"],
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "",
+    client: "",
+    status: "Concept",
+    location: "Kuala Lumpur, Malaysia",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+"This unique theme hotel concept includes 412 guest rooms supported by extensive food and beverage venues, cafés, banquet facilities, lobby and pre-function areas, delicatessen and gift shops, retail zones, a health club, indoor pool, and service/back-of-house functions.",
+"The conceptual design explores a fully integrated hospitality environment that blends themed experiences with operational efficiency and guest comfort."
+    ]
+  },
+
+  {
+    name: "Pemberton Valley All-Suite Country Inn",
+    slug: slugify("Pemberton Valley All-Suite Country Inn"),
+    imgs: ["/projects/PEMBERTON VALLEY All-Suite COUNTRY-INN, British Columbia.jpg"],
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "British Columbia, Canada",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+"Located 8 km from Whistler, this all-suite country inn integrates a restaurant, pub, meeting facilities, and conference spaces within a rustic architectural expression. Using river rock materials and cedar shake roofing, the design creates a warm, regional character that complements the surrounding valley landscape.",
+      "The inn provides a getaway experience blending accommodation, dining, and small-scale event hosting in a natural mountain setting."
+    ]
+  },
+{
+  name: "Holiday Inn SunSpree Resort – Osoyoos",
+  slug: slugify("Holiday Inn SunSpree Resort – Osoyoos"),
+  imgs: ["/projects/HOLIDAY INN SUNSPREE RESORT, Osoyoos, British Columbia.jpg"],
+  industry: "Hospitality",
+  category: "Hospitality ",
+  subIndustry: "Waterfront Resort",
+  client: "",
+  status: "",
+  location: "Osoyoos, British Columbia, Canada",
+  year: "",
+  by: "Arup Datta Architect",
+  brand: "datta",
+  awards: [],
+  description: [
+"This waterfront condominium hotel overlooks Osoyoos Lake and includes 120 family suites, each with private balconies offering panoramic views. Amenities include a rooftop garden patio, barbecue deck, indoor pool, restaurant, meeting rooms, arcade, marina, boat rental facilities, underground parking, and direct lakefront access.",
+    "Built on a challenging site bordered by water on both sides, the project maximizes views and layout efficiency. The planning approach delivered major cost savings through optimized code analysis and flexible suite designs, resulting in a highly functional and economical resort development."
+    ]
+},
+
+{
+  name: "Destination Resort – Osoyoos",
+  slug: slugify("Destination Resort – Osoyoos"),
+  imgs: ["/projects/DESTINATION RESORT, Lake Osoyoos, British Columbia.jpg"],
+  industry: "Hospitality",
+  category: "Hospitality",
+  subIndustry: "Casino / Leisure Resort",
+  client: "",
+  status: "Concept",
+  location: "Osoyoos, British Columbia, Canada",
+  year: "",
+  by: "Arup Datta Architect",
+  brand: "datta",
+  awards: [],
+  description: [
+  "Set on 5,000 hectares of land owned by the Osoyoos Indian Band, this conceptual master plan proposes a large-scale resort development inspired by traditional pueblo planning seen in Santa Ana, Sandia, and Taos. The program includes a 300-room hotel, casino, exhibition and conference centre, time-share condominiums, leisure resort facilities, marina, lakeside restaurants, and a central public square.",
+  "The development combines cultural sensitivity with large-format hospitality and entertainment programming, positioned as a major economic and tourism driver for the region."  
+  ]
+},
+
+{
+  name: "Four Valleys Resort – Carcross",
+  slug: slugify("Four Valleys Resort – Carcross"),
+  imgs: ["/projects/FOUR VALLEYS RESORT, Carcross, Yukon.jpg"],
+  industry: "Hospitality",
+  category: "Hospitality",
+  subIndustry: "Cultural Resort",
+  client: "",
+  status: "Concept",
+  location: "Carcross, Yukon, Canada",
+  year: "",
+  by: "Arup Datta Architect",
+  brand: "datta",
+  awards: [],
+  description: [
+  "Overlooking Carcross and Bennett Lake, this 22.05-hectare project is envisioned as an international-standard destination that celebrates First Nation culture and the dramatic Yukon landscape. The resort integrates a 120-room hotel, cultural centre, restaurants, bar, spa, indoor recreational amenities, retail shops, outdoor pool, and cultural activity spaces.",
+  "A system of crafted hiking trails, gardens, boardwalks, and viewing decks creates a guided yet authentic experience, emphasizing respect for the environment, cultural dialogue, and community sustainability."  
+  ]
+},
+
+{
+  name: "GRT Hotel – Coimbatore",
+  slug: slugify("GRT Hotel – Coimbatore"),
+  imgs: ["/projects/GRT HOTEL, Coimbatore, India2.jpg" , "/projects/GRT HOTEL, Coimbatore, India.jpg"],
+  industry: "Hospitality",
+  category: "Hospitality",
+  subIndustry: "4-Star Deluxe",
+  client: "",
+  status: "",
+  location: "Coimbatore, India",
+  year: "",
+  by: "Arup Datta Architect",
+  brand: "datta",
+  awards: [],
+  description: [
+  "The GRT Hotel is a 200-room, four-star deluxe hotel located along Avinashi Road. Program elements include a coffee shop, lounge, bar, two fine dining restaurants, swimming pool, health and fitness facilities, and spa amenities.",
+  "Designed on a linear site, the project employs granite, curtainwall glazing, and brick with acrylic stucco finishes to enhance its contemporary architectural identity. The design resolves complex space requirements efficiently while presenting a unified, modern hotel environment."  
+  ]
+},
+
+{
+  name: "Hotel SRP – Kolkata",
+  slug: slugify("Hotel SRP – Kolkata"),
+  imgs: ["/projects/HOTEL SRP, Kolkata, India.jpg"],
+  industry: "Hospitality",
+  category: "Hospitality",
+  subIndustry: "Urban Boutique",
+  client: "",
+  status: "",
+  location: "Kolkata, India",
+  year: "",
+  by: "Arup Datta Architect",
+  brand: "datta",
+  awards: [],
+  description: [
+  "Hotel SRP is a 56-room upscale boutique hotel located near Kolkata Airport. Amenities include a coffee shop, restaurant, lounge/bar, large patios, pre-function space, a small banquet hall, and a rooftop swimming pool situated over the underground parkade.",
+  "The façade incorporates Alucobond panels, granite, and full-height glazing on the upper levels, establishing a striking contemporary identity. Multiple design options were explored before the final architectural composition was selected."  
+  ]
+},
+
+{
+  name: "5-Star Hotel & Luxury Residential Condominium – Hainan Island",
+  slug: slugify("5-Star Hotel & Luxury Residential Condominium – Hainan Island"),
+  imgs: ["/projects/5-STAR HOTEL & RESIDENTIAL CONDOMINIUM, Hainan Island, China.jpg"],
+  industry: "Hospitality",
+  category: "Hospitality",
+  subIndustry: "Luxury Beachfront",
+  client: "",
+  status: "Concept",
+  location: "Hainan Island, China",
+  year: "",
+  by: "Arup Datta Architect",
+  brand: "datta",
+  awards: [],
+  description: [
+  "This concept design envisions a landmark 5-star beachfront hotel and luxury residential complex on Hainan Island, integrating hospitality, resort living, and premium residential amenities within a single development. The project includes a 400-room luxury hotel featuring multiple restaurants, spa and fitness facilities, and full banqueting and convention spaces oriented toward ocean views.",
+  "Above the hotel rises a collection of 400 high-end condominium suites, all designed to maximize exposure to the island’s coastal scenery. A full underground parking structure supports the development, preserving the ground plane for pedestrian, leisure, and landscape experiences."  
+  
+  ]
+},
+
+{
+    name: "MacEwan Hall Expansion – University of Calgary",
+    slug: slugify("MacEwan Hall Expansion – University of Calgary"),
+    imgs:  ["/projects/MACEWAN HALL EXPANSION, The University of Calgary, Calgary, Alberta.jpg"],
+    industry: "Institutional",
+    category: "Institutional",
+    subIndustry: "",
+    client: "",
+  status: "",
+  location: "Calgary, Alberta, Canada",
+  year: "",
+  by: "Arup Datta Architect",
+  brand: "datta",
+  awards: [],
+  description: [
+  "The 70,000 sq.ft. MacEwan Hall Expansion enhances the University of Calgary’s student activity and event infrastructure by adding a new 1,800-person ballroom (1,200-person banquet capacity), a 350-seat full-service restaurant, expanded kitchen facilities, retail units, and multi-level lobby connections to both MacEwan Hall and the MacEwan Student Centre.",
+  "The design frees up constrained spaces in the older building, enabling them to be repurposed for other campus functions. The expansion is clad in EIFS, precast panels, extruded metal panels, and acrylic stucco, forming a simple yet elegant façade. High-quality acoustic treatment supports flexible use for concerts, gatherings, and major university events.",
+  "Public circulation integrates seamlessly with the main concourse of the student centre, improving accessibility and campus flow."  
+  ]
+  },
+{
+  name: "MacEwan Student Centre – University of Calgary",
+  slug: slugify("MacEwan Student Centre – University of Calgary"),
+  imgs: ["/projects/MACEWAN STUDENT CENTRE, The University of Calgary, Calgary, Alberta2.jpg" ,
+    "/projects/MACEWAN STUDENT CENTRE, The University of Calgary, Calgary, Alberta.jpg"
+  ],
+  industry: "Institutional",
+  category: "Institutional",
+  subIndustry: "Campus Hub",
+  client: "",
+  status: "",
+  location: "Calgary, Alberta, Canada",
+  year: "",
+  by: "Arup Datta Architect",
+  brand: "datta",
+  awards: [],
+  description: [
+  "Winner of a competition among 49 national entries, the MacEwan Student Centre is recognized as one of Canada’s leading student hubs. The 175,000 sq.ft. expansion integrates seamlessly with the existing campus fabric through a network of internal halls, courts, landscaped spaces, and connections to the Nickle Arts Museum, Physical Education facilities, and future university developments.",
+  "The centre houses Student Union offices, student services, health and counseling services, a bookstore, Native and International Student Centres, council chambers, a faculty/staff club, and a major retail component.",
+  "Delivered on time and on budget—with $1M savings at post-tender stage—the facility also served as the hospitality centre for the 1988 Winter Olympic Games."  
+  ]
+},
+
+// {
+//   name: "Penticton Community Christian School",
+//   slug: slugify("Penticton Community Christian School"),
+//   imgs: ["/projects/PentictonSchool.png"],
+//   industry: "Institutional / Educational",
+//   category: "Elementary School",
+//   subIndustry: "Phased Master Plan",
+//   client: "",
+//   status: "",
+//   location: "Penticton, British Columbia, Canada",
+//   year: "",
+//   by: "Arup Datta Architect",
+//   brand: "datta",
+//   awards: [],
+//   description: [
+//     "Located in the Carmi Heights area, this 36,000 square foot elementary school was planned as a phased master development to accommodate long-term growth and changing educational needs. The design organizes classrooms into primary, middle, and future expansion pods, allowing the school to evolve while maintaining operational clarity and spatial efficiency.",
+//     "The program includes a kindergarten suite, eight dedicated classrooms, specialized spaces for music education, computer studies, and science laboratories, as well as a fully functional kitchen, library and resource centre, administrative offices, counselling rooms, and building service areas that support the facility’s daily operations.",
+//     "The gymnasium incorporates multiple activity zones to support physical education and extracurricular programming. Early learning pods were intentionally designed to reflect the feeling of a home-like environment, fostering comfort, security, and familiarity for young children. Site planning and circulation strategies were implemented to ensure cost-effective construction and future expansion capacity."
+//   ]
+// },
 
 
 
@@ -860,6 +1303,32 @@ const projectsData = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
   {
     name: "Mcdougall Multi-Family",
@@ -1128,7 +1597,78 @@ export default projectsData;
   
   
   
- 
+
+
+
+// // ==== PROJECT 45A — St. Joachim’s Catholic Church ====
+// {
+//   name: "St. Joachim’s Catholic Church",
+//   slug: slugify("St. Joachim’s Catholic Church"),
+//   imgs: ["/projects/StJoachimsChurch.png"],
+//   industry: "Institutional / Religious",
+//   category: "Church",
+//   subIndustry: "Catholic",
+//   client: "",
+//   status: "",
+//   location: "St. John, New Brunswick, Canada",
+//   year: "",
+//   by: "Arup Datta Architect",
+//   brand: "datta",
+//   awards: [],
+//   description: [
+//     "St. Joachim’s Catholic Church was designed to create a warm, welcoming, and acoustically refined worship environment. The sanctuary is developed as a completely column-free space through the use of glue-laminated timber beams, wood decking, and durable metal roofing systems, ensuring clear sightlines for all congregants.",
+//     "The exterior envelope employs a brick veneer rain-screen system that enhances long-term durability while minimizing maintenance requirements. This layered construction approach improves moisture control, thermal performance, and overall building longevity while maintaining a timeless civic architectural expression.",
+//     "Interior design decisions prioritize acoustic clarity, spatial warmth, and visual simplicity, supporting both reflective worship and larger community gatherings. The architecture reinforces a strong sense of unity and openness while delivering practical performance for liturgical and social functions."
+//   ]
+// },
+
+// // ==== PROJECT 45B — Showers of Blessing Apostolic Church ====
+// {
+//   name: "Showers of Blessing Apostolic Church",
+//   slug: slugify("Showers of Blessing Apostolic Church"),
+//   imgs: ["/projects/ShowersOfBlessingChurch.png"],
+//   industry: "Institutional / Religious",
+//   category: "Church / Community Centre",
+//   subIndustry: "Multi-Use",
+//   client: "",
+//   status: "",
+//   location: "Calgary, Alberta, Canada",
+//   year: "",
+//   by: "Arup Datta Architect",
+//   brand: "datta",
+//   awards: [],
+//   description: [
+//     "This 22,000 square foot multi-functional church complex was designed to serve as both a spiritual home and a community gathering facility. The project includes a 450-seat sanctuary that supports worship services, performances, and special events, alongside administrative offices that manage church operations.",
+//     "A lower-level activity space was created to accommodate bible study programs, youth initiatives, and a wide range of community events. These flexible areas allow the building to function as a social anchor beyond traditional religious services.",
+//     "The complex incorporates a large, fully equipped community kitchen that supports shared meals, celebrations, and outreach programs. The project was carefully phased to allow incremental construction aligned with budget availability and congregation growth, ensuring long-term adaptability and sustainable development."
+//   ]
+// },
+
+// // ==== PROJECT 46 — Owerri Arts & Cultural Centre ====
+// {
+//   name: "Owerri Arts & Cultural Centre",
+//   slug: slugify("Owerri Arts & Cultural Centre"),
+//   imgs: ["/projects/OwerriCulturalCentre.png"],
+//   industry: "Institutional / Cultural",
+//   category: "Cultural Complex",
+//   subIndustry: "Performing Arts",
+//   client: "",
+//   status: "Competition Winner",
+//   location: "Owerri, Imo State, Nigeria",
+//   year: "",
+//   by: "Arup Datta Architect",
+//   brand: "datta",
+//   awards: ["National Design Competition Winner"],
+//   description: [
+//     "Winner of a national open competition, the Owerri Arts and Cultural Centre master plan establishes a comprehensive civic and cultural destination designed to support artistic expression, education, and large-scale public engagement. The project includes a 2,000-seat main auditorium, dedicated arts and cultural buildings, administrative offices, multiple open-air performance spaces, and a full range of operational support facilities.",
+//     "The interior of the main auditorium is conceived as a dramatic sequence of interconnected, multi-level foyer spaces that unfold like medieval streets, creating a dynamic spatial journey that intensifies anticipation as visitors move toward the performance halls. Seating is arranged on three sides around a central stage to strengthen the connection between performers and audiences, enabling both intimate performances and large-scale cultural productions.",
+//     "A connecting bridge links the Main Auditorium directly to the Arts and Cultural Centre, ensuring seamless circulation for performers, staff, and the public. This design strategy enables uninterrupted movement even in challenging seasonal conditions while strengthening the architectural dialogue between the major cultural components of the complex."
+//   ]
+// }
+// );
+
+// export default projectsData;
+
   
 
  
@@ -1139,4 +1679,8 @@ export default projectsData;
   
 
   
+
+
+
+
 

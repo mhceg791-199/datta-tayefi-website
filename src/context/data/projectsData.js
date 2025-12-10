@@ -272,6 +272,594 @@ const projectsData = [
       "The development combines modern architectural design with functional planning, providing a balanced mix of commercial spaces and community-oriented facilities to serve the surrounding area."
     ],
   },
+{
+    name: "Beidaihe Resort",
+    slug: slugify("Beidaihe Resort"),
+    imgs: ["/projects/BEIDAIHE RESORT, Beidaihe, China.png"],
+    industry: "Mixed-Use / Hospitality ",
+    category: "Mixed-Use",
+    subIndustry: "Hospitality",
+    client: "",
+    status: "",
+    location: "China",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "The Beidaihe Resort Master Plan encompasses approximately 107 acres of mixed-use development designed around three major components: residential living, entertainment and leisure, and a luxury hospitality zone.",
+      "The extensive residential district includes high-rise towers, low-rise blocks, and exclusive villas, accommodating a wide range of community needs.",
+      "The entertainment and recreational area introduces family-oriented attractions, water park zones, and active sports facilities, creating a vibrant leisure destination.",
+      "A dedicated 7-star luxury hotel district incorporates up to 800 rooms over two phases, supported by convention spaces, exhibition halls, and a major retail centre totaling 40,000 sq.m.",
+      "The master plan merges luxury, recreation, and urban living into a cohesive waterfront destination with long-term development potential."
+    ]
+  },
+{
+    name: "DCA Concept",
+    slug: slugify("DCA Concept"),
+    imgs: ["/projects/DCA.jpg"],
+    industry: "Mixed-Use / Civic / Educational / Commercial",
+    category: "Mixed-Use",
+    subIndustry: "Civic",
+    client: "",
+    status: "",
+    location: "Kuala Lumpur, Malaysia",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "The DCA Concept Master Plan reimagines a 170-acre site in Kuala Lumpur as an international-standard development integrating civic, educational, commercial, cultural, and residential functions.",
+      "With a total potential of 8.65 million sq.ft. and a low FAR of 1.16, the plan distributes buildable area efficiently across six economic development phases.",
+      "Key program components include a Pilgrim Assembly Centre for 2,000 people, a world-class Civil Aviation Training Centre for 500 students, technology parks, high-tech business districts, entertainment hubs, hotel and convention facilities, power centres, waterfront festival markets, and diverse residential components ranging from apartments to condominiums.",
+      "The master plan creates a vibrant urban ecosystem along an activated riverfront designed to remain animated both day and night, supporting tourism, economic development, and cultural engagement."
+    ]
+  },
+{
+    name: "Sepang International Marina City",
+    slug: slugify("Sepang International Marina City"),
+    imgs: ["/projects/sepang 2.jpg"],
+    industry: "Mixed-Use / Civic / Educational / Commercial",
+    category: "Mixed-Use",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Malaysia",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "The Sepang International Marina City Master Plan envisions a 1,500-hectare waterfront metropolis centered around a marina-driven economic and cultural district.",
+      "The development introduces a complete urban ecosystem with zones for central business activities, high-rise and mid-rise residential districts, low-rise family communities, leisure and entertainment districts, amusement areas, information technology parks, and extensive logistics facilities.",
+      "This 'Marina City' concept builds a future-oriented urban destination integrating lifestyle, commerce, recreation, and innovation across a vast and strategically located coastal landscape."
+    ]
+  },
+{
+    name: "Penticton Christian Community School",
+    slug: slugify("Penticton Christian Community School"),
+    imgs: ["/projects/pentication.png"],
+    industry: "Institutional / Educational",
+    category: "Institutional",
+    subIndustry: "Educational",
+    client: "",
+    status: "",
+    location: "Penticton, Canada",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Located on a 22-acre undulating site in Penticton, British Columbia, this master plan organizes educational, community, and recreational facilities with minimal land disturbance by stepping building blocks into the natural topography.",
+      "The plan integrates an elementary and high school, visitor centre, conference centre, retreat areas, natural amphitheater, lagoon, campground, chapel, farm-house elements, heritage settlement park, authentic log cabin, and nature trails — forming a diverse educational landscape rooted in environmental sensitivity."
+    ]
+  },
+
+
+// {
+  //   name: "Tourist Holiday Resort – Mysore",
+  //   slug: slugify("Tourist Holiday Resort – Mysore"),
+  //   imgs: ["/projects/Hospitality.png"],
+  //   industry: "Hospitality",
+  //   category: "Hospitality",
+  //   subIndustry: "",
+  //   client: "",
+  //   status: "",
+  //   location: "Mysore, India",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "Located on an 11-acre site, the Tourist Holiday Resort in Mysore is a hospitality and leisure development designed around the idea of thematic living.",
+  //     "The master plan organizes a collection of 'Theme Cottages', each featuring breezeways, private courtyards, and family barbecue spaces to enhance comfort and privacy.",
+  //     "The cottages are intentionally separated from the main club, entertainment, and leisure facilities through landscaped gardens, ensuring a balanced experience between retreat-style seclusion and active recreation.",
+  //     "With a total development area of 525,000 sq.ft., the resort integrates club facilities, spa and fitness areas, retail zones, amusement spaces, and outdoor sports amenities to form a complete holiday destination."
+  //   ]
+  // },
+// {
+  //   name: "Mahabalipuram Beach Resort",
+  //   slug: slugify("Mahabalipuram Beach Resort"),
+  //   imgs: ["/projects/Hospitality.png"],
+  //   industry: "Hospitality",
+  //   category: "Hospitality",
+  //   subIndustry: "",
+  //   client: "",
+  //   status: "",
+  //   location: "Mahabalipuram, India",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "Positioned on a 46.5-acre beachfront site facing the Bay of Bengal, the Mahabalipuram Beach Resort is envisioned as a complete luxury retreat modeled as a 'paradise-like' coastal destination.",
+  //     "The development includes hotel suites, 110 self-contained villas, convention facilities, restaurants, sports and fitness amenities, indoor recreation, and specialty retail.",
+  //     "The site planning carefully follows Vastu Shastra principles, creating a harmonious environment that organizes active and passive uses with clear separation.",
+  //     "The landscape design is central to the experience, integrating Japanese Osho gardens, waterfalls, reflecting pools, boardwalks, viewing decks, and curated garden sequences that frame ocean views."
+  //   ]
+  // },
+
+ {
+    name: "The Janus Building",
+    slug: slugify("The Janus Building"),
+    imgs: ["/projects/janus.jpg"],
+    industry: "Mixed-Use (Residential / Commercial / Retail)",
+    category: "Mixed-Use",
+    subIndustry: "Residential",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Located in the heart of Uptown Calgary, the Janus Building is a distinctive mixed-use structure combining high-end retail, office spaces, and luxury residential apartments.",
+      "Its classical architectural character reinforces the urban identity of the 17th Avenue district.",
+      "The development achieves a 4.5 FAR within a zone typically permitting 3.0 FAR, contributing to the revitalization of the area's Area Redevelopment Plan (ARP) by integrating commercial vibrancy with upscale urban living."
+    ]
+  },
+{
+    name: "Kensington Gate",
+    slug: slugify("Kensington Gate"),
+    imgs: ["/projects/gate.jpg" , "/projects/gate2.jpg"],
+    industry: "Mixed-Use",
+    category: "Mixed-Use",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Situated at the edge of downtown Calgary in the vibrant Kensington district, Kensington Gate is regarded as one of the best urban communities in the city.",
+      "Developed in collaboration with Kasian Kennedy Architects, the project includes 83 apartment-style units, commercial retail spaces, bank and office levels, a Red Robin restaurant, and 226 parking stalls.",
+      "The development strengthens the walkable, mixed-use character of the Kensington Business District, offering residents direct access to amenities, transit, and urban lifestyle conveniences."
+    ]
+  },
+ {
+    name: "The Village on the Lake",
+    slug: slugify("The Village on the Lake"),
+    imgs: ["/projects/village on the lake.jpg"],
+    industry: "Mixed-Use",
+    category: "Mixed-Use",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Osoyoos, BC",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Located directly on Lake Osoyoos, The Village on the Lake is a mixed-use resort community integrating townhouses, chalets, commercial components, and a well-known 3-star hotel.",
+      "The master plan emphasizes a strong connection to the waterfront, with direct access to boating and recreational activities.",
+      "The development achieves 52% landscaped open space, ensuring a resort-like atmosphere while meeting all planning requirements for tourist commercial zoning.",
+      "Building heights are carefully calibrated to preserve neighboring views and leverage natural site slopes."
+    ]
+  },
+{
+    name: "Kovai Centre",
+    slug: slugify("Kovai Centre"),
+    imgs: ["/projects/kovai.jpg"],
+    industry: "Mixed-Use / Commercial",
+    category: "Mixed-Use",
+    subIndustry: "Commercial",
+    client: "",
+    status: "",
+    location: "Coimbatore, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "The Kovai Centre is a major 2.5 million sq.ft. mixed-use development integrating a regional shopping mall, two office towers, a hotel, and five high-rise residential buildings positioned above a large multi-level parkade.",
+      "The landscaped deck over the parkade forms a continuous green amenity space for residents.",
+      "The planning strategy emphasizes pedestrian-friendly urban design, efficient FSI utilization, only 30% parcel coverage, and a highly optimized parking structure.",
+      "The result is a self-contained mixed-use district that balances commercial vitality with residential livability and landscape integration."
+    ]
+  },
+  {
+    name: "Design Resource Platform (DRP)",
+    slug: slugify("Design Resource Platform (DRP)"),
+    imgs: ["/projects/DESIGN RESOURCE PLATFORM2.jpg" , "/projects/DESIGN RESOURCE PLATFORM.jpg"],
+    industry: "Mixed-Use / Design & Retail Hub",
+    category: "Mixed-Use",
+    subIndustry: "Design & Retail Hub",
+    client: "",
+    status: "",
+    location: "Bangalore, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "The Design Resource Platform (DRP) in Bangalore is conceived as a one-stop destination for the interiors and construction industry.",
+      "Exhibited at the World Architecture Festival (Future Projects Category), the DRP is designed as an iconic, monumental, and sculptural architectural form combining design retail, professional services, and educational programs within a 1 million sq.ft. complex.",
+      "The development includes 575,000 sq.ft of retail, 25,000 sq.ft of food outlets, conference and training facilities, multi-utility zones, a hotel, entertainment offerings, and professional office spaces.",
+      "Two façade strategies were developed: a dramatic sculptural form and an alternative stepped granite-and-glass scheme emphasizing minimalism, functionality, and memorable architectural identity."
+    ]
+  },
+{
+    name: "Promenade @ OMR",
+    slug: slugify("Promenade @ OMR"),
+    imgs: ["/projects/PROMENADE.png"],
+    industry: "Mixed-Use",
+    category: "Mixed-Use",
+    subIndustry: "Commercial",
+    client: "",
+    status: "",
+    location: "Chennai, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Promenade @ OMR is a 1.10 million sq.ft. mixed-use development located in one of Chennai’s fastest-growing urban corridors.",
+      "The project integrates a state-of-the-art shopping mall, a commercial office tower, and two internationally branded hotels—Novotel and Ibis—within a single master-planned destination.",
+      "The design emphasizes highly efficient space planning, two levels of underground parking, and integrated circulation systems that connect retail, hotel, and office functions.",
+      "Public spaces are animated with glass façades, feature architectural elements, and vibrant gathering areas that create a contemporary urban atmosphere.",
+      "Sustainable design strategies are implemented across the development, including rainwater harvesting, stormwater and sewage management, energy-efficient lighting and power distribution, and the use of environmentally responsible materials.",
+      "The result is a cohesive, future-focused mixed-use node for Chennai’s OMR district."
+    ]
+  },
+{
+    name: "Linkson Global Paradise",
+    slug: slugify("Linkson Global Paradise"),
+    imgs: ["/projects/LINKSON GLOBAL.png"],
+    industry: "Mixed-Use / Hospitality ",
+    category: "Mixed-Use",
+    subIndustry: "Hospitality",
+    client: "",
+    status: "",
+    location: "Nagpur, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Set on approximately 50 acres of green, gently sloping land in Nagpur, Linkson Global Paradise is envisioned as a holistic retreat integrating hospitality, wellness, lifestyle, and event-focused amenities.",
+      "The master plan brings Linkson International (P) Ltd.’s vision to life through a diverse program that includes marriage gardens, an executive clubhouse, resort hotel, conference centre, meditation and therapy facilities, spas, villas, and tented accommodations.",
+      "The development features 405,895 sq.ft. of built-up area across two phases, supported by extensive at-grade and under-deck parking.",
+      "Landscaped open spaces, health facilities, and a meditation centre connected through walking trails create a serene and restorative environment.",
+      "Designed as a premier, peaceful, and pristine destination, the project supports social gatherings, business retreats, wellness tourism, and leisure travel, positioning the resort as a one-of-a-kind experiential environment for rejuvenation and celebration."
+    ]
+  },
+
+// {
+  //   name: "Seniors Residence at Bow Trail",
+  //   slug: slugify("Seniors Residence at Bow Trail"),
+  //   imgs: ["/projects/Residential.png"],
+  //   industry: "Residential",
+  //   category: "Residential",
+  //   subIndustry: "",
+  //   client: "",
+  //   status: "",
+  //   location: "Calgary, Alberta",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "The Seniors Residence at Bow Trail introduces a comprehensive aging-in-place community designed around a park-like setting with multiple pocket courtyards oriented to maximize natural light from the south, west, and east.",
+  //     "The development strengthens the neighborhood’s urban fabric with a welcoming gateway entrance on the southwest corner of the site.",
+  //     "The project offers state-of-the-art amenities that promote physical, emotional, and social well-being.",
+  //     "The design incorporates advanced medical assistance, multiple wellness programs, holistic lifestyle options, and family-oriented community spaces—ensuring that senior living is not isolated but enriched.",
+  //     "Built on a community-centric model, the residence includes Independent Living, Assisted Living, Supportive Living, and Memory Care components, allowing residents to transition seamlessly as their needs evolve while remaining within a familiar community."
+  //   ]
+  // },
+
+
+  {
+    name: "Pleasant Harbor Marina Recreational Community",
+    slug: slugify("Pleasant Harbor Marina Recreational Community"),
+    imgs: ["/projects/PLEASANT HARBOR MARINA RECREATIONAL2.png" , "/projects/PLEASANT HARBOR MARINA RECREATIONAL.png"],
+    industry: "Mixed-Use / Hospitality ",
+    category: "Mixed-Use",
+    subIndustry: "Hospitality",
+    client: "",
+    status: "",
+    location: "Brinnon, Washington, USA",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Located in Brinnon, Washington, Pleasant Harbor Marina Recreational Community features a 250,000 sq.ft. recreational and community centre as part of a broader leisure-focused master plan.",
+      "With a project budget of USD 75 million, the development includes a two-level recreational centre, a 208-suite resort hotel, and an aquatic centre designed to serve both local residents and visitors.",
+      "The project has received development permit approval, with Phase 1 targeted for completion in 2023.",
+      "ADAL serves as the Prime Consultant and Lead Architect, overseeing the full architectural scope."
+    ]
+  },
+// {
+  //   name: "Office Buildings Portfolio",
+  //   slug: slugify("Office Buildings Portfolio"),
+  //   imgs: ["/projects/Commercial.png"],
+  //   industry: "Commercial",
+  //   category: "Commercial",
+  //   subIndustry: "Office Towers",
+  //   client: "",
+  //   status: "",
+  //   location: "Western Canada & United States",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "This portfolio represents more than four million square feet of office development across major cities in Canada and the United States.",
+  //     "Projects include landmark towers such as the AGT Toll Buildings in Calgary and Edmonton, the CN Tower office complex in Edmonton, Calgary Place, One Denver Place, and several additional high-rise commercial buildings.",
+  //     "The work spans design, consulting, and architectural leadership roles, contributing to the development of prominent corporate office spaces, mixed-use podiums, and retail-integrated tower complexes.",
+  //     "These projects strengthen the architectural fabric of urban cores while delivering functional, leasable, and structurally efficient commercial environments."
+  //   ]
+  // },
+  // {
+  //   name: "Olympic Centre",
+  //   slug: slugify("Olympic Centre"),
+  //   imgs: ["/projects/Mixed-Use.png"],
+  //   industry: "Mixed-Use",
+  //   category: "Mixed-Use",
+  //   subIndustry: "",
+  //   client: "",
+  //   status: "",
+  //   location: "Calgary, Alberta",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "The Olympic Centre is a competition-winning master plan and concept design for a 4-tower, 220,000 sq.m. mixed-use office and retail complex spanning the railway tracks between 9th & 10th Avenues and 4th & 5th Streets SW in Calgary. The design maximizes executive corner offices while prioritizing pedestrian-friendly public spaces that enhance the city’s streetscape.",
+  //     "A signature landscaped atrium deck bridges the tracks and connects north–south and east–west urban flows through Calgary’s +15 system. Selected from 14 design concepts, the project was recognized for its flexible planning, strong urban integration, and cost-effective architectural response to the site’s complexities."
+  //   ]
+  // }
+ {
+    name: "Bankers Hall – Original Scheme",
+    slug: slugify("Bankers Hall – Original Scheme"),
+    imgs: ["/projects/BANKERS HALL.jpg"],
+    industry: "Mixed-Use",
+    category: "Mixed-Use",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Bankers Hall is one of Canada’s most recognized commercial developments, comprising twin office towers of 55 and 56 storeys located in downtown Calgary.",
+      "The original scheme integrated two levels of commercial retail and four levels of underground parking.",
+      "A skylit central atrium and strategic use of zoning bonus incentives enabled the project to achieve a 15 FAR within its site.",
+      "The design merges landmark presence with highly functional office planning and efficient integration of retail and parking amenities."
+    ]
+  },
+{
+    name: "Brunswick Square",
+    slug: slugify("Brunswick Square"),
+    imgs: ["/projects/BRUNSWICK SQUARE.jpg"],
+    industry: "Commercial / Office",
+    category: "Commercial",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Saint John, New Brunswick",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Brunswick Square is an 11-storey headquarters complex for the New Brunswick Telephone Company, integrating office space, a Delta Hotel, retail shopping levels, and 800 parking stalls.",
+      "The project played a key role in revitalizing Saint John’s downtown core and port area.",
+      "Finished with precast concrete and glass, delivering a durable and contemporary corporate presence."
+    ]
+  },
+{
+    name: "Western Canadian Place",
+    slug: slugify("Western Canadian Place"),
+    imgs: ["/projects/WESTERN CANADIAN PLACE.jpg"],
+    industry: "Mixed-Use",
+    category: "Mixed-Use",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Western Canadian Place consists of 34- and 44-storey Class-A office towers linked by an interconnected three-level skylit atrium.",
+      "Totaling more than 1.3 million sq.ft. of office and retail space, the towers are clad in granite with gold reflective curtainwall glazing.",
+      "Named one of Canada’s 100 most liked buildings, highest-bonused building in Alberta at 17.99 FAR, and BOMA award winner for office functionality.",
+      "Design emphasizes cost-efficient architecture, coordinated structural and M&E systems, and +15 network integration through four connections."
+    ]
+  },
+{
+    name: "ECOWAS Headquarters",
+    slug: slugify("ECOWAS Headquarters"),
+    imgs: ["/projects/ECOWAS HEADQUARTERS.jpg"],
+    industry: "Civic / Institutional",
+    category: "Institutional",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Abuja, Nigeria",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Serving as the headquarters for 16 West African nations, the ECOWAS complex includes 249,700 sq.ft. of office space, a 500-seat plenary hall, a 300-seat meeting hall, and numerous committee and conference rooms.",
+      "Supports regional governance, diplomacy, and economic coordination, establishing a unified administrative center.",
+      "Design emphasizes high-level governmental activity, efficient circulation, and symbolic representation of regional unity."
+    ]
+  },
+{
+    name: "Nigerian Industrial Bank Headquarters & Convention Centre",
+    slug: slugify("Nigerian Industrial Bank Headquarters & Convention Centre"),
+    imgs: ["/projects/Nigerian Industrial Bank Headquarters Complex.jpg"],
+    industry: "Mixed-Use / Commercial / Civic / Convention",
+    category: "Mixed-Use",
+    subIndustry: "Convention",
+    client: "",
+    status: "",
+    location: "Abuja, Nigeria",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Located in Abuja’s CBD, includes 785,000 sq.ft. of office, 122,000 sq.ft. retail, 42,250 sq.ft. convention/banquet facilities, and 750-car parking structure.",
+      "Placed 4th in international competition, harmonizing with Kenzo Tange & Associates master plan.",
+      "Site plan unifies office, retail, and convention with articulated massing, landscaping, and efficient pedestrian/vehicular flow."
+    ]
+  },
+
+{
+    name: "Airdrie Office Building",
+    slug: slugify("Airdrie Office Building"),
+    imgs: ["/projects/OFFICE BUILDING, Airdrie, Alberta.jpg"],
+    industry: "Commercial",
+    category: "Commercial",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Airdrie, Alberta",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+      description: [
+      "Located in downtown Airdrie, 45,000 sq.ft. office building with bank and retail units on ground floor, office spaces above, and underground parking.",
+      "Aligns with city redevelopment guidelines."
+    ]
+  },
+{
+    name: "Merritt City Hall",
+    slug: slugify("Merritt City Hall"),
+    imgs: ["/projects/MERRITT CITY HALL, Merritt, British Columbia.jpg"],
+    industry: "Civic / Institutional",
+    category: "Institutional",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Merritt, British Columbia",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "15,000 sq.ft. City Hall with administrative offices, council chambers, meeting rooms, tenant spaces, and planning offices.",
+      "Column-free second-floor offices for maximum flexibility, classical exterior detailing with brick arches and precast panels, durable metal roofing."
+    ]
+  },
+{
+    name: "Royal Vista Business Centre",
+    slug: slugify("Royal Vista Business Centre"),
+    imgs: ["/projects/ROYAL VISTA BUSINESS CENTRE, Calgary, Alberta.jpg"],
+    industry: "Commercial",
+    category: "Commercial",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Combines retail/commercial on ground floor with office spaces above (12,788 sq.ft. per floor), designed for phased expansion.",
+      "Future expansion allows additional two-storey structure of 10,460 sq.ft. per floor."
+    ]
+  },
+{
+    name: "Erin Woods Medical Centre",
+    slug: slugify("Erin Woods Medical Centre"),
+    imgs: ["/projects/ERIN WOODS MEDICAL CENTRE, Calgary, Alberta.jpg"],
+    industry: "Institutional / Healthcare",
+    category: "Institutional",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Professional medical centre with retail pharmacy and clinics on ground floor, leasable offices above, underground and surface parking.",
+      "Materials include Alucobond panels, brick, and corrugated steel cladding."
+    ]
+  },
+{
+    name: "Professional Building",
+    slug: slugify("Professional Building"),
+    imgs: ["/projects/PROFESSIONAL BUILDING, Calgary, Alberta.jpg"],
+    industry: "Commercial / Office / Medical / Retail",
+    category: "Mixed-Use",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Integrates medical, dental, office, retail, and parking within a cohesive program.",
+      "Sustainable principles: water-efficient systems, LEED light pollution reduction, regional materials."
+    ]
+  },
+{
+    name: "Crescent Point Energy Office Building",
+    slug: slugify("Crescent Point Energy Office Building"),
+    imgs: ["/projects/CRESCENT POINT ENERGY OFFICE BUILDING, Carlyle, Saskatchewan2.jpg",
+      "/projects/CRESCENT POINT ENERGY OFFICE BUILDING, Carlyle, Saskatchewan.jpg"
+    ],
+    industry: "Commercial / Office",
+    category: "Commercial",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Carlyle, Saskatchewan",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Office building for energy company with branded solar-ban glazing, white aluminum panels, column-free interiors, and red entrance canopy reflecting company logo."
+    ]
+  },
+
+
+
+
+
+
+
+
+
 
   {
     name: "Mcdougall Multi-Family",
@@ -532,3 +1120,23 @@ const projectsData = [
 ];
 
 export default projectsData;
+
+
+  
+  
+  
+  
+  
+  
+ 
+  
+
+ 
+  
+
+  
+  
+  
+
+  
+

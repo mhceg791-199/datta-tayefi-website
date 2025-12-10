@@ -256,7 +256,7 @@ const projectsData = [
   //   imgs: [
   //     "/projects/Paradiso Greystone/1.jpg",
   //     "/projects/Paradiso Greystone/2.jpg",
-      
+
   //   ],
   //   industry: "Commercial",
   //   category: "Commercial",
@@ -273,12 +273,7 @@ const projectsData = [
   //   ],
   // },
 
-
-
-
-
-
-{
+  {
     name: "Beidaihe Resort",
     slug: slugify("Beidaihe Resort"),
     imgs: ["/projects/BEIDAIHE RESORT, Beidaihe, China.png"],
@@ -297,10 +292,10 @@ const projectsData = [
       "The extensive residential district includes high-rise towers, low-rise blocks, and exclusive villas, accommodating a wide range of community needs.",
       "The entertainment and recreational area introduces family-oriented attractions, water park zones, and active sports facilities, creating a vibrant leisure destination.",
       "A dedicated 7-star luxury hotel district incorporates up to 800 rooms over two phases, supported by convention spaces, exhibition halls, and a major retail centre totaling 40,000 sq.m.",
-      "The master plan merges luxury, recreation, and urban living into a cohesive waterfront destination with long-term development potential."
-    ]
+      "The master plan merges luxury, recreation, and urban living into a cohesive waterfront destination with long-term development potential.",
+    ],
   },
-{
+  {
     name: "DCA Concept",
     slug: slugify("DCA Concept"),
     imgs: ["/projects/DCA.jpg"],
@@ -318,10 +313,10 @@ const projectsData = [
       "The DCA Concept Master Plan reimagines a 170-acre site in Kuala Lumpur as an international-standard development integrating civic, educational, commercial, cultural, and residential functions.",
       "With a total potential of 8.65 million sq.ft. and a low FAR of 1.16, the plan distributes buildable area efficiently across six economic development phases.",
       "Key program components include a Pilgrim Assembly Centre for 2,000 people, a world-class Civil Aviation Training Centre for 500 students, technology parks, high-tech business districts, entertainment hubs, hotel and convention facilities, power centres, waterfront festival markets, and diverse residential components ranging from apartments to condominiums.",
-      "The master plan creates a vibrant urban ecosystem along an activated riverfront designed to remain animated both day and night, supporting tourism, economic development, and cultural engagement."
-    ]
+      "The master plan creates a vibrant urban ecosystem along an activated riverfront designed to remain animated both day and night, supporting tourism, economic development, and cultural engagement.",
+    ],
   },
-{
+  {
     name: "Sepang International Marina City",
     slug: slugify("Sepang International Marina City"),
     imgs: ["/projects/sepang 2.jpg"],
@@ -338,10 +333,10 @@ const projectsData = [
     description: [
       "The Sepang International Marina City Master Plan envisions a 1,500-hectare waterfront metropolis centered around a marina-driven economic and cultural district.",
       "The development introduces a complete urban ecosystem with zones for central business activities, high-rise and mid-rise residential districts, low-rise family communities, leisure and entertainment districts, amusement areas, information technology parks, and extensive logistics facilities.",
-      "This 'Marina City' concept builds a future-oriented urban destination integrating lifestyle, commerce, recreation, and innovation across a vast and strategically located coastal landscape."
-    ]
+      "This 'Marina City' concept builds a future-oriented urban destination integrating lifestyle, commerce, recreation, and innovation across a vast and strategically located coastal landscape.",
+    ],
   },
-{
+  {
     name: "Penticton Christian Community School",
     slug: slugify("Penticton Christian Community School"),
     imgs: ["/projects/pentication.png"],
@@ -357,12 +352,11 @@ const projectsData = [
     awards: [],
     description: [
       "Located on a 22-acre undulating site in Penticton, British Columbia, this master plan organizes educational, community, and recreational facilities with minimal land disturbance by stepping building blocks into the natural topography.",
-      "The plan integrates an elementary and high school, visitor centre, conference centre, retreat areas, natural amphitheater, lagoon, campground, chapel, farm-house elements, heritage settlement park, authentic log cabin, and nature trails — forming a diverse educational landscape rooted in environmental sensitivity."
-    ]
+      "The plan integrates an elementary and high school, visitor centre, conference centre, retreat areas, natural amphitheater, lagoon, campground, chapel, farm-house elements, heritage settlement park, authentic log cabin, and nature trails — forming a diverse educational landscape rooted in environmental sensitivity.",
+    ],
   },
 
-
-// {
+  // {
   //   name: "Tourist Holiday Resort – Mysore",
   //   slug: slugify("Tourist Holiday Resort – Mysore"),
   //   imgs: ["/projects/Hospitality.png"],
@@ -383,7 +377,7 @@ const projectsData = [
   //     "With a total development area of 525,000 sq.ft., the resort integrates club facilities, spa and fitness areas, retail zones, amusement spaces, and outdoor sports amenities to form a complete holiday destination."
   //   ]
   // },
-// {
+  // {
   //   name: "Mahabalipuram Beach Resort",
   //   slug: slugify("Mahabalipuram Beach Resort"),
   //   imgs: ["/projects/Hospitality.png"],
@@ -405,7 +399,7 @@ const projectsData = [
   //   ]
   // },
 
- {
+  {
     name: "The Janus Building",
     slug: slugify("The Janus Building"),
     imgs: ["/projects/janus.jpg"],
@@ -422,13 +416,13 @@ const projectsData = [
     description: [
       "Located in the heart of Uptown Calgary, the Janus Building is a distinctive mixed-use structure combining high-end retail, office spaces, and luxury residential apartments.",
       "Its classical architectural character reinforces the urban identity of the 17th Avenue district.",
-      "The development achieves a 4.5 FAR within a zone typically permitting 3.0 FAR, contributing to the revitalization of the area's Area Redevelopment Plan (ARP) by integrating commercial vibrancy with upscale urban living."
-    ]
+      "The development achieves a 4.5 FAR within a zone typically permitting 3.0 FAR, contributing to the revitalization of the area's Area Redevelopment Plan (ARP) by integrating commercial vibrancy with upscale urban living.",
+    ],
   },
-{
+  {
     name: "Kensington Gate",
     slug: slugify("Kensington Gate"),
-    imgs: ["/projects/gate.jpg" , "/projects/gate2.jpg"],
+    imgs: ["/projects/gate.jpg", "/projects/gate2.jpg"],
     industry: "Mixed-Use",
     category: "Mixed-Use",
     subIndustry: "",
@@ -442,10 +436,10 @@ const projectsData = [
     description: [
       "Situated at the edge of downtown Calgary in the vibrant Kensington district, Kensington Gate is regarded as one of the best urban communities in the city.",
       "Developed in collaboration with Kasian Kennedy Architects, the project includes 83 apartment-style units, commercial retail spaces, bank and office levels, a Red Robin restaurant, and 226 parking stalls.",
-      "The development strengthens the walkable, mixed-use character of the Kensington Business District, offering residents direct access to amenities, transit, and urban lifestyle conveniences."
-    ]
+      "The development strengthens the walkable, mixed-use character of the Kensington Business District, offering residents direct access to amenities, transit, and urban lifestyle conveniences.",
+    ],
   },
- {
+  {
     name: "The Village on the Lake",
     slug: slugify("The Village on the Lake"),
     imgs: ["/projects/village on the lake.jpg"],
@@ -463,10 +457,10 @@ const projectsData = [
       "Located directly on Lake Osoyoos, The Village on the Lake is a mixed-use resort community integrating townhouses, chalets, commercial components, and a well-known 3-star hotel.",
       "The master plan emphasizes a strong connection to the waterfront, with direct access to boating and recreational activities.",
       "The development achieves 52% landscaped open space, ensuring a resort-like atmosphere while meeting all planning requirements for tourist commercial zoning.",
-      "Building heights are carefully calibrated to preserve neighboring views and leverage natural site slopes."
-    ]
+      "Building heights are carefully calibrated to preserve neighboring views and leverage natural site slopes.",
+    ],
   },
-{
+  {
     name: "Kovai Centre",
     slug: slugify("Kovai Centre"),
     imgs: ["/projects/kovai.jpg"],
@@ -484,13 +478,16 @@ const projectsData = [
       "The Kovai Centre is a major 2.5 million sq.ft. mixed-use development integrating a regional shopping mall, two office towers, a hotel, and five high-rise residential buildings positioned above a large multi-level parkade.",
       "The landscaped deck over the parkade forms a continuous green amenity space for residents.",
       "The planning strategy emphasizes pedestrian-friendly urban design, efficient FSI utilization, only 30% parcel coverage, and a highly optimized parking structure.",
-      "The result is a self-contained mixed-use district that balances commercial vitality with residential livability and landscape integration."
-    ]
+      "The result is a self-contained mixed-use district that balances commercial vitality with residential livability and landscape integration.",
+    ],
   },
   {
     name: "Design Resource Platform (DRP)",
     slug: slugify("Design Resource Platform (DRP)"),
-    imgs: ["/projects/DESIGN RESOURCE PLATFORM2.jpg" , "/projects/DESIGN RESOURCE PLATFORM.jpg"],
+    imgs: [
+      "/projects/DESIGN RESOURCE PLATFORM2.jpg",
+      "/projects/DESIGN RESOURCE PLATFORM.jpg",
+    ],
     industry: "Mixed-Use / Design & Retail Hub",
     category: "Mixed-Use",
     subIndustry: "Design & Retail Hub",
@@ -505,10 +502,10 @@ const projectsData = [
       "The Design Resource Platform (DRP) in Bangalore is conceived as a one-stop destination for the interiors and construction industry.",
       "Exhibited at the World Architecture Festival (Future Projects Category), the DRP is designed as an iconic, monumental, and sculptural architectural form combining design retail, professional services, and educational programs within a 1 million sq.ft. complex.",
       "The development includes 575,000 sq.ft of retail, 25,000 sq.ft of food outlets, conference and training facilities, multi-utility zones, a hotel, entertainment offerings, and professional office spaces.",
-      "Two façade strategies were developed: a dramatic sculptural form and an alternative stepped granite-and-glass scheme emphasizing minimalism, functionality, and memorable architectural identity."
-    ]
+      "Two façade strategies were developed: a dramatic sculptural form and an alternative stepped granite-and-glass scheme emphasizing minimalism, functionality, and memorable architectural identity.",
+    ],
   },
-{
+  {
     name: "Promenade @ OMR",
     slug: slugify("Promenade @ OMR"),
     imgs: ["/projects/PROMENADE.png"],
@@ -528,10 +525,10 @@ const projectsData = [
       "The design emphasizes highly efficient space planning, two levels of underground parking, and integrated circulation systems that connect retail, hotel, and office functions.",
       "Public spaces are animated with glass façades, feature architectural elements, and vibrant gathering areas that create a contemporary urban atmosphere.",
       "Sustainable design strategies are implemented across the development, including rainwater harvesting, stormwater and sewage management, energy-efficient lighting and power distribution, and the use of environmentally responsible materials.",
-      "The result is a cohesive, future-focused mixed-use node for Chennai’s OMR district."
-    ]
+      "The result is a cohesive, future-focused mixed-use node for Chennai’s OMR district.",
+    ],
   },
-{
+  {
     name: "Linkson Global Paradise",
     slug: slugify("Linkson Global Paradise"),
     imgs: ["/projects/LINKSON GLOBAL.png"],
@@ -550,11 +547,11 @@ const projectsData = [
       "The master plan brings Linkson International (P) Ltd.’s vision to life through a diverse program that includes marriage gardens, an executive clubhouse, resort hotel, conference centre, meditation and therapy facilities, spas, villas, and tented accommodations.",
       "The development features 405,895 sq.ft. of built-up area across two phases, supported by extensive at-grade and under-deck parking.",
       "Landscaped open spaces, health facilities, and a meditation centre connected through walking trails create a serene and restorative environment.",
-      "Designed as a premier, peaceful, and pristine destination, the project supports social gatherings, business retreats, wellness tourism, and leisure travel, positioning the resort as a one-of-a-kind experiential environment for rejuvenation and celebration."
-    ]
+      "Designed as a premier, peaceful, and pristine destination, the project supports social gatherings, business retreats, wellness tourism, and leisure travel, positioning the resort as a one-of-a-kind experiential environment for rejuvenation and celebration.",
+    ],
   },
 
-// {
+  // {
   //   name: "Seniors Residence at Bow Trail",
   //   slug: slugify("Seniors Residence at Bow Trail"),
   //   imgs: ["/projects/Residential.png"],
@@ -577,11 +574,13 @@ const projectsData = [
   //   ]
   // },
 
-
   {
     name: "Pleasant Harbor Marina Recreational Community",
     slug: slugify("Pleasant Harbor Marina Recreational Community"),
-    imgs: ["/projects/PLEASANT HARBOR MARINA RECREATIONAL2.png" , "/projects/PLEASANT HARBOR MARINA RECREATIONAL.png"],
+    imgs: [
+      "/projects/PLEASANT HARBOR MARINA RECREATIONAL2.png",
+      "/projects/PLEASANT HARBOR MARINA RECREATIONAL.png",
+    ],
     industry: "Mixed-Use / Hospitality ",
     category: "Mixed-Use",
     subIndustry: "Hospitality",
@@ -596,10 +595,10 @@ const projectsData = [
       "Located in Brinnon, Washington, Pleasant Harbor Marina Recreational Community features a 250,000 sq.ft. recreational and community centre as part of a broader leisure-focused master plan.",
       "With a project budget of USD 75 million, the development includes a two-level recreational centre, a 208-suite resort hotel, and an aquatic centre designed to serve both local residents and visitors.",
       "The project has received development permit approval, with Phase 1 targeted for completion in 2023.",
-      "ADAL serves as the Prime Consultant and Lead Architect, overseeing the full architectural scope."
-    ]
+      "ADAL serves as the Prime Consultant and Lead Architect, overseeing the full architectural scope.",
+    ],
   },
-// {
+  // {
   //   name: "Office Buildings Portfolio",
   //   slug: slugify("Office Buildings Portfolio"),
   //   imgs: ["/projects/Commercial.png"],
@@ -636,10 +635,10 @@ const projectsData = [
     awards: [],
     description: [
       "The Olympic Centre is a competition-winning master plan and concept design for a 4-tower, 220,000 sq.m. mixed-use office and retail complex spanning the railway tracks between 9th & 10th Avenues and 4th & 5th Streets SW in Calgary. The design maximizes executive corner offices while prioritizing pedestrian-friendly public spaces that enhance the city’s streetscape.",
-      "A signature landscaped atrium deck bridges the tracks and connects north–south and east–west urban flows through Calgary’s +15 system. Selected from 14 design concepts, the project was recognized for its flexible planning, strong urban integration, and cost-effective architectural response to the site’s complexities."
-    ]
+      "A signature landscaped atrium deck bridges the tracks and connects north–south and east–west urban flows through Calgary’s +15 system. Selected from 14 design concepts, the project was recognized for its flexible planning, strong urban integration, and cost-effective architectural response to the site’s complexities.",
+    ],
   },
- {
+  {
     name: "Bankers Hall – Original Scheme",
     slug: slugify("Bankers Hall – Original Scheme"),
     imgs: ["/projects/BANKERS HALL.jpg"],
@@ -657,10 +656,10 @@ const projectsData = [
       "Bankers Hall is one of Canada’s most recognized commercial developments, comprising twin office towers of 55 and 56 storeys located in downtown Calgary.",
       "The original scheme integrated two levels of commercial retail and four levels of underground parking.",
       "A skylit central atrium and strategic use of zoning bonus incentives enabled the project to achieve a 15 FAR within its site.",
-      "The design merges landmark presence with highly functional office planning and efficient integration of retail and parking amenities."
-    ]
+      "The design merges landmark presence with highly functional office planning and efficient integration of retail and parking amenities.",
+    ],
   },
-{
+  {
     name: "Brunswick Square",
     slug: slugify("Brunswick Square"),
     imgs: ["/projects/BRUNSWICK SQUARE.jpg"],
@@ -677,10 +676,10 @@ const projectsData = [
     description: [
       "Brunswick Square is an 11-storey headquarters complex for the New Brunswick Telephone Company, integrating office space, a Delta Hotel, retail shopping levels, and 800 parking stalls.",
       "The project played a key role in revitalizing Saint John’s downtown core and port area.",
-      "Finished with precast concrete and glass, delivering a durable and contemporary corporate presence."
-    ]
+      "Finished with precast concrete and glass, delivering a durable and contemporary corporate presence.",
+    ],
   },
-{
+  {
     name: "Western Canadian Place",
     slug: slugify("Western Canadian Place"),
     imgs: ["/projects/WESTERN CANADIAN PLACE.jpg"],
@@ -698,10 +697,10 @@ const projectsData = [
       "Western Canadian Place consists of 34- and 44-storey Class-A office towers linked by an interconnected three-level skylit atrium.",
       "Totaling more than 1.3 million sq.ft. of office and retail space, the towers are clad in granite with gold reflective curtainwall glazing.",
       "Named one of Canada’s 100 most liked buildings, highest-bonused building in Alberta at 17.99 FAR, and BOMA award winner for office functionality.",
-      "Design emphasizes cost-efficient architecture, coordinated structural and M&E systems, and +15 network integration through four connections."
-    ]
+      "Design emphasizes cost-efficient architecture, coordinated structural and M&E systems, and +15 network integration through four connections.",
+    ],
   },
-{
+  {
     name: "ECOWAS Headquarters",
     slug: slugify("ECOWAS Headquarters"),
     imgs: ["/projects/ECOWAS HEADQUARTERS.jpg"],
@@ -718,10 +717,10 @@ const projectsData = [
     description: [
       "Serving as the headquarters for 16 West African nations, the ECOWAS complex includes 249,700 sq.ft. of office space, a 500-seat plenary hall, a 300-seat meeting hall, and numerous committee and conference rooms.",
       "Supports regional governance, diplomacy, and economic coordination, establishing a unified administrative center.",
-      "Design emphasizes high-level governmental activity, efficient circulation, and symbolic representation of regional unity."
-    ]
+      "Design emphasizes high-level governmental activity, efficient circulation, and symbolic representation of regional unity.",
+    ],
   },
-{
+  {
     name: "Nigerian Industrial Bank Headquarters & Convention Centre",
     slug: slugify("Nigerian Industrial Bank Headquarters & Convention Centre"),
     imgs: ["/projects/Nigerian Industrial Bank Headquarters Complex.jpg"],
@@ -738,11 +737,11 @@ const projectsData = [
     description: [
       "Located in Abuja’s CBD, includes 785,000 sq.ft. of office, 122,000 sq.ft. retail, 42,250 sq.ft. convention/banquet facilities, and 750-car parking structure.",
       "Placed 4th in international competition, harmonizing with Kenzo Tange & Associates master plan.",
-      "Site plan unifies office, retail, and convention with articulated massing, landscaping, and efficient pedestrian/vehicular flow."
-    ]
+      "Site plan unifies office, retail, and convention with articulated massing, landscaping, and efficient pedestrian/vehicular flow.",
+    ],
   },
 
-{
+  {
     name: "Airdrie Office Building",
     slug: slugify("Airdrie Office Building"),
     imgs: ["/projects/OFFICE BUILDING, Airdrie, Alberta.jpg"],
@@ -756,12 +755,12 @@ const projectsData = [
     by: "Arup Datta Architect",
     brand: "datta",
     awards: [],
-      description: [
+    description: [
       "Located in downtown Airdrie, 45,000 sq.ft. office building with bank and retail units on ground floor, office spaces above, and underground parking.",
-      "Aligns with city redevelopment guidelines."
-    ]
+      "Aligns with city redevelopment guidelines.",
+    ],
   },
-{
+  {
     name: "Merritt City Hall",
     slug: slugify("Merritt City Hall"),
     imgs: ["/projects/MERRITT CITY HALL, Merritt, British Columbia.jpg"],
@@ -777,10 +776,10 @@ const projectsData = [
     awards: [],
     description: [
       "15,000 sq.ft. City Hall with administrative offices, council chambers, meeting rooms, tenant spaces, and planning offices.",
-      "Column-free second-floor offices for maximum flexibility, classical exterior detailing with brick arches and precast panels, durable metal roofing."
-    ]
+      "Column-free second-floor offices for maximum flexibility, classical exterior detailing with brick arches and precast panels, durable metal roofing.",
+    ],
   },
-{
+  {
     name: "Royal Vista Business Centre",
     slug: slugify("Royal Vista Business Centre"),
     imgs: ["/projects/ROYAL VISTA BUSINESS CENTRE, Calgary, Alberta.jpg"],
@@ -796,10 +795,10 @@ const projectsData = [
     awards: [],
     description: [
       "Combines retail/commercial on ground floor with office spaces above (12,788 sq.ft. per floor), designed for phased expansion.",
-      "Future expansion allows additional two-storey structure of 10,460 sq.ft. per floor."
-    ]
+      "Future expansion allows additional two-storey structure of 10,460 sq.ft. per floor.",
+    ],
   },
-{
+  {
     name: "Erin Woods Medical Centre",
     slug: slugify("Erin Woods Medical Centre"),
     imgs: ["/projects/ERIN WOODS MEDICAL CENTRE, Calgary, Alberta.jpg"],
@@ -815,10 +814,10 @@ const projectsData = [
     awards: [],
     description: [
       "Professional medical centre with retail pharmacy and clinics on ground floor, leasable offices above, underground and surface parking.",
-      "Materials include Alucobond panels, brick, and corrugated steel cladding."
-    ]
+      "Materials include Alucobond panels, brick, and corrugated steel cladding.",
+    ],
   },
-{
+  {
     name: "Professional Building",
     slug: slugify("Professional Building"),
     imgs: ["/projects/PROFESSIONAL BUILDING, Calgary, Alberta.jpg"],
@@ -834,14 +833,15 @@ const projectsData = [
     awards: [],
     description: [
       "Integrates medical, dental, office, retail, and parking within a cohesive program.",
-      "Sustainable principles: water-efficient systems, LEED light pollution reduction, regional materials."
-    ]
+      "Sustainable principles: water-efficient systems, LEED light pollution reduction, regional materials.",
+    ],
   },
-{
+  {
     name: "Crescent Point Energy Office Building",
     slug: slugify("Crescent Point Energy Office Building"),
-    imgs: ["/projects/CRESCENT POINT ENERGY OFFICE BUILDING, Carlyle, Saskatchewan2.jpg",
-      "/projects/CRESCENT POINT ENERGY OFFICE BUILDING, Carlyle, Saskatchewan.jpg"
+    imgs: [
+      "/projects/CRESCENT POINT ENERGY OFFICE BUILDING, Carlyle, Saskatchewan2.jpg",
+      "/projects/CRESCENT POINT ENERGY OFFICE BUILDING, Carlyle, Saskatchewan.jpg",
     ],
     industry: "Commercial / Office",
     category: "Commercial",
@@ -854,10 +854,9 @@ const projectsData = [
     brand: "datta",
     awards: [],
     description: [
-      "Office building for energy company with branded solar-ban glazing, white aluminum panels, column-free interiors, and red entrance canopy reflecting company logo."
-    ]
+      "Office building for energy company with branded solar-ban glazing, white aluminum panels, column-free interiors, and red entrance canopy reflecting company logo.",
+    ],
   },
-
 
   // {
   //   name: "Office Building – Chennai (Concept Design)",
@@ -895,8 +894,8 @@ const projectsData = [
     awards: [],
     description: [
       "Class-A office building on constrained urban site in Chennai’s business district.",
-      "Exterior: Alucobond panels, reflective glazing, granite, stone. Linear site shape informed placement of southwest core for open office space."
-    ]
+      "Exterior: Alucobond panels, reflective glazing, granite, stone. Linear site shape informed placement of southwest core for open office space.",
+    ],
   },
 
   {
@@ -915,13 +914,16 @@ const projectsData = [
     awards: [],
     description: [
       "15-storey, 180,000 sq.ft. high-tech office tower with column-free floors, retail, three levels of parking, and rooftop cafeteria.",
-      "Exterior: curtainwall glazing, green-tinted reflective glass, solar-ban glazing, granite, Alucobond panels."
-    ]
+      "Exterior: curtainwall glazing, green-tinted reflective glass, solar-ban glazing, granite, Alucobond panels.",
+    ],
   },
   {
     name: "Sohar Development Office Building",
     slug: slugify("Sohar Development Office Building"),
-    imgs: ["/projects/SOHAR DEVELOPMENT OFFICE BUILDING2.jpg" , "/projects/SOHAR DEVELOPMENT OFFICE BUILDING.jpg" ],
+    imgs: [
+      "/projects/SOHAR DEVELOPMENT OFFICE BUILDING2.jpg",
+      "/projects/SOHAR DEVELOPMENT OFFICE BUILDING.jpg",
+    ],
     industry: "Civic / Commercial Office / Municipal Building",
     category: "Commercial",
     subIndustry: "",
@@ -934,13 +936,16 @@ const projectsData = [
     awards: [],
     description: [
       "Municipal structure with local architectural expression using locally sourced stone and recessed glazing.",
-      "Parking fully concealed at grade beneath elevated structure with landscaped public spaces."
-    ]
+      "Parking fully concealed at grade beneath elevated structure with landscaped public spaces.",
+    ],
   },
   {
     name: "Information Technology Park – Chennai",
     slug: slugify("Information Technology Park – Chennai"),
-    imgs: ["/projects/INFORMATION  TECHNOLOGY  PARK, Chennai, India 2.jpg" , "/projects/INFORMATION  TECHNOLOGY  PARK, Chennai, India.jpg"],
+    imgs: [
+      "/projects/INFORMATION  TECHNOLOGY  PARK, Chennai, India 2.jpg",
+      "/projects/INFORMATION  TECHNOLOGY  PARK, Chennai, India.jpg",
+    ],
     industry: "Commercial / High-Rise Office / Technology Park",
     category: "Commercial",
     subIndustry: "Technology",
@@ -953,8 +958,8 @@ const projectsData = [
     awards: [],
     description: [
       "1.1 million sq.ft. development with 16-storey tower, 7-storey standalone parkade, landscaped plaza.",
-      "Column-free office floors (50,000 sq.ft.) with retail and rooftop cafeteria. Exterior: Alucobond panels, granite, curtainwall glazing."
-    ]
+      "Column-free office floors (50,000 sq.ft.) with retail and rooftop cafeteria. Exterior: Alucobond panels, granite, curtainwall glazing.",
+    ],
   },
   // {
   //   name: "The Janus Building",
@@ -1050,8 +1055,8 @@ const projectsData = [
     brand: "datta",
     awards: [],
     description: [
-      "Conceptual design for 3,000-room luxury hotel with conference, retail, leisure, and recreation components."
-    ]
+      "Conceptual design for 3,000-room luxury hotel with conference, retail, leisure, and recreation components.",
+    ],
   },
 
   {
@@ -1070,8 +1075,8 @@ const projectsData = [
     awards: [],
     description: [
       "500-room oceanfront resort with integrated 250-room cardiac clinic/suite facility.",
-      "Leisure and recreation amenities integrated with wellness-focused accommodation."
-    ]
+      "Leisure and recreation amenities integrated with wellness-focused accommodation.",
+    ],
   },
   {
     name: "Theme Hotel – Kuala Lumpur",
@@ -1088,15 +1093,17 @@ const projectsData = [
     brand: "datta",
     awards: [],
     description: [
-"This unique theme hotel concept includes 412 guest rooms supported by extensive food and beverage venues, cafés, banquet facilities, lobby and pre-function areas, delicatessen and gift shops, retail zones, a health club, indoor pool, and service/back-of-house functions.",
-"The conceptual design explores a fully integrated hospitality environment that blends themed experiences with operational efficiency and guest comfort."
-    ]
+      "This unique theme hotel concept includes 412 guest rooms supported by extensive food and beverage venues, cafés, banquet facilities, lobby and pre-function areas, delicatessen and gift shops, retail zones, a health club, indoor pool, and service/back-of-house functions.",
+      "The conceptual design explores a fully integrated hospitality environment that blends themed experiences with operational efficiency and guest comfort.",
+    ],
   },
 
   {
     name: "Pemberton Valley All-Suite Country Inn",
     slug: slugify("Pemberton Valley All-Suite Country Inn"),
-    imgs: ["/projects/PEMBERTON VALLEY All-Suite COUNTRY-INN, British Columbia.jpg"],
+    imgs: [
+      "/projects/PEMBERTON VALLEY All-Suite COUNTRY-INN, British Columbia.jpg",
+    ],
     industry: "Hospitality",
     category: "Hospitality",
     subIndustry: "",
@@ -1108,201 +1115,248 @@ const projectsData = [
     brand: "datta",
     awards: [],
     description: [
-"Located 8 km from Whistler, this all-suite country inn integrates a restaurant, pub, meeting facilities, and conference spaces within a rustic architectural expression. Using river rock materials and cedar shake roofing, the design creates a warm, regional character that complements the surrounding valley landscape.",
-      "The inn provides a getaway experience blending accommodation, dining, and small-scale event hosting in a natural mountain setting."
-    ]
+      "Located 8 km from Whistler, this all-suite country inn integrates a restaurant, pub, meeting facilities, and conference spaces within a rustic architectural expression. Using river rock materials and cedar shake roofing, the design creates a warm, regional character that complements the surrounding valley landscape.",
+      "The inn provides a getaway experience blending accommodation, dining, and small-scale event hosting in a natural mountain setting.",
+    ],
   },
 
-{
+  {
     name: "Holiday Inn SunSpree Resort – Osoyoos",
     slug: slugify("Holiday Inn SunSpree Resort – Osoyoos"),
-  imgs: ["/projects/HOLIDAY INN SUNSPREE RESORT, Osoyoos, British Columbia.jpg"],
+    imgs: [
+      "/projects/HOLIDAY INN SUNSPREE RESORT, Osoyoos, British Columbia.jpg",
+    ],
     industry: "Hospitality",
     category: "Hospitality",
     subIndustry: "",
     client: "",
     status: "",
     location: "Osoyoos, British Columbia, Canada",
-  year: "",
-  by: "Arup Datta Architect",
-  brand: "datta",
-  awards: [],
-  description: [
-"This waterfront condominium hotel overlooks Osoyoos Lake and includes 120 family suites, each with private balconies offering panoramic views. Amenities include a rooftop garden patio, barbecue deck, indoor pool, restaurant, meeting rooms, arcade, marina, boat rental facilities, underground parking, and direct lakefront access.",
-    "Built on a challenging site bordered by water on both sides, the project maximizes views and layout efficiency. The planning approach delivered major cost savings through optimized code analysis and flexible suite designs, resulting in a highly functional and economical resort development."
-    ]
-},
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "This waterfront condominium hotel overlooks Osoyoos Lake and includes 120 family suites, each with private balconies offering panoramic views. Amenities include a rooftop garden patio, barbecue deck, indoor pool, restaurant, meeting rooms, arcade, marina, boat rental facilities, underground parking, and direct lakefront access.",
+      "Built on a challenging site bordered by water on both sides, the project maximizes views and layout efficiency. The planning approach delivered major cost savings through optimized code analysis and flexible suite designs, resulting in a highly functional and economical resort development.",
+    ],
+  },
 
+  {
+    name: "Destination Resort – Osoyoos",
+    slug: slugify("Destination Resort – Osoyoos"),
+    imgs: ["/projects/DESTINATION RESORT, Lake Osoyoos, British Columbia.jpg"],
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "Casino / Leisure Resort",
+    client: "",
+    status: "Concept",
+    location: "Osoyoos, British Columbia, Canada",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Set on 5,000 hectares of land owned by the Osoyoos Indian Band, this conceptual master plan proposes a large-scale resort development inspired by traditional pueblo planning seen in Santa Ana, Sandia, and Taos. The program includes a 300-room hotel, casino, exhibition and conference centre, time-share condominiums, leisure resort facilities, marina, lakeside restaurants, and a central public square.",
+      "The development combines cultural sensitivity with large-format hospitality and entertainment programming, positioned as a major economic and tourism driver for the region.",
+    ],
+  },
 
+  {
+    name: "Four Valleys Resort – Carcross",
+    slug: slugify("Four Valleys Resort – Carcross"),
+    imgs: ["/projects/FOUR VALLEYS RESORT, Carcross, Yukon.jpg"],
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "Cultural Resort",
+    client: "",
+    status: "Concept",
+    location: "Carcross, Yukon, Canada",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Overlooking Carcross and Bennett Lake, this 22.05-hectare project is envisioned as an international-standard destination that celebrates First Nation culture and the dramatic Yukon landscape. The resort integrates a 120-room hotel, cultural centre, restaurants, bar, spa, indoor recreational amenities, retail shops, outdoor pool, and cultural activity spaces.",
+      "A system of crafted hiking trails, gardens, boardwalks, and viewing decks creates a guided yet authentic experience, emphasizing respect for the environment, cultural dialogue, and community sustainability.",
+    ],
+  },
 
+  {
+    name: "GRT Hotel – Coimbatore",
+    slug: slugify("GRT Hotel – Coimbatore"),
+    imgs: [
+      "/projects/GRT HOTEL, Coimbatore, India2.jpg",
+      "/projects/GRT HOTEL, Coimbatore, India.jpg",
+    ],
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "4-Star Deluxe",
+    client: "",
+    status: "",
+    location: "Coimbatore, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "The GRT Hotel is a 200-room, four-star deluxe hotel located along Avinashi Road. Program elements include a coffee shop, lounge, bar, two fine dining restaurants, swimming pool, health and fitness facilities, and spa amenities.",
+      "Designed on a linear site, the project employs granite, curtainwall glazing, and brick with acrylic stucco finishes to enhance its contemporary architectural identity. The design resolves complex space requirements efficiently while presenting a unified, modern hotel environment.",
+    ],
+  },
 
+  {
+    name: "Hotel SRP – Kolkata",
+    slug: slugify("Hotel SRP – Kolkata"),
+    imgs: ["/projects/HOTEL SRP, Kolkata, India.jpg"],
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "Urban Boutique",
+    client: "",
+    status: "",
+    location: "Kolkata, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Hotel SRP is a 56-room upscale boutique hotel located near Kolkata Airport. Amenities include a coffee shop, restaurant, lounge/bar, large patios, pre-function space, a small banquet hall, and a rooftop swimming pool situated over the underground parkade.",
+      "The façade incorporates Alucobond panels, granite, and full-height glazing on the upper levels, establishing a striking contemporary identity. Multiple design options were explored before the final architectural composition was selected.",
+    ],
+  },
 
+  {
+    name: "5-Star Hotel & Luxury Residential Condominium – Hainan Island",
+    slug: slugify(
+      "5-Star Hotel & Luxury Residential Condominium – Hainan Island"
+    ),
+    imgs: [
+      "/projects/5-STAR HOTEL & RESIDENTIAL CONDOMINIUM, Hainan Island, China.jpg",
+    ],
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "Luxury Beachfront",
+    client: "",
+    status: "Concept",
+    location: "Hainan Island, China",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "This concept design envisions a landmark 5-star beachfront hotel and luxury residential complex on Hainan Island, integrating hospitality, resort living, and premium residential amenities within a single development. The project includes a 400-room luxury hotel featuring multiple restaurants, spa and fitness facilities, and full banqueting and convention spaces oriented toward ocean views.",
+      "Above the hotel rises a collection of 400 high-end condominium suites, all designed to maximize exposure to the island’s coastal scenery. A full underground parking structure supports the development, preserving the ground plane for pedestrian, leisure, and landscape experiences.",
+    ],
+  },
 
-{
-  name: "Destination Resort – Osoyoos",
-  slug: slugify("Destination Resort – Osoyoos"),
-  imgs: ["/projects/DESTINATION RESORT, Lake Osoyoos, British Columbia.jpg"],
-  industry: "Hospitality",
-  category: "Hospitality",
-  subIndustry: "Casino / Leisure Resort",
-  client: "",
-  status: "Concept",
-  location: "Osoyoos, British Columbia, Canada",
-  year: "",
-  by: "Arup Datta Architect",
-  brand: "datta",
-  awards: [],
-  description: [
-  "Set on 5,000 hectares of land owned by the Osoyoos Indian Band, this conceptual master plan proposes a large-scale resort development inspired by traditional pueblo planning seen in Santa Ana, Sandia, and Taos. The program includes a 300-room hotel, casino, exhibition and conference centre, time-share condominiums, leisure resort facilities, marina, lakeside restaurants, and a central public square.",
-  "The development combines cultural sensitivity with large-format hospitality and entertainment programming, positioned as a major economic and tourism driver for the region."  
-  ]
-},
-
-{
-  name: "Four Valleys Resort – Carcross",
-  slug: slugify("Four Valleys Resort – Carcross"),
-  imgs: ["/projects/FOUR VALLEYS RESORT, Carcross, Yukon.jpg"],
-  industry: "Hospitality",
-  category: "Hospitality",
-  subIndustry: "Cultural Resort",
-  client: "",
-  status: "Concept",
-  location: "Carcross, Yukon, Canada",
-  year: "",
-  by: "Arup Datta Architect",
-  brand: "datta",
-  awards: [],
-  description: [
-  "Overlooking Carcross and Bennett Lake, this 22.05-hectare project is envisioned as an international-standard destination that celebrates First Nation culture and the dramatic Yukon landscape. The resort integrates a 120-room hotel, cultural centre, restaurants, bar, spa, indoor recreational amenities, retail shops, outdoor pool, and cultural activity spaces.",
-  "A system of crafted hiking trails, gardens, boardwalks, and viewing decks creates a guided yet authentic experience, emphasizing respect for the environment, cultural dialogue, and community sustainability."  
-  ]
-},
-
-{
-  name: "GRT Hotel – Coimbatore",
-  slug: slugify("GRT Hotel – Coimbatore"),
-  imgs: ["/projects/GRT HOTEL, Coimbatore, India2.jpg" , "/projects/GRT HOTEL, Coimbatore, India.jpg"],
-  industry: "Hospitality",
-  category: "Hospitality",
-  subIndustry: "4-Star Deluxe",
-  client: "",
-  status: "",
-  location: "Coimbatore, India",
-  year: "",
-  by: "Arup Datta Architect",
-  brand: "datta",
-  awards: [],
-  description: [
-  "The GRT Hotel is a 200-room, four-star deluxe hotel located along Avinashi Road. Program elements include a coffee shop, lounge, bar, two fine dining restaurants, swimming pool, health and fitness facilities, and spa amenities.",
-  "Designed on a linear site, the project employs granite, curtainwall glazing, and brick with acrylic stucco finishes to enhance its contemporary architectural identity. The design resolves complex space requirements efficiently while presenting a unified, modern hotel environment."  
-  ]
-},
-
-{
-  name: "Hotel SRP – Kolkata",
-  slug: slugify("Hotel SRP – Kolkata"),
-  imgs: ["/projects/HOTEL SRP, Kolkata, India.jpg"],
-  industry: "Hospitality",
-  category: "Hospitality",
-  subIndustry: "Urban Boutique",
-  client: "",
-  status: "",
-  location: "Kolkata, India",
-  year: "",
-  by: "Arup Datta Architect",
-  brand: "datta",
-  awards: [],
-  description: [
-  "Hotel SRP is a 56-room upscale boutique hotel located near Kolkata Airport. Amenities include a coffee shop, restaurant, lounge/bar, large patios, pre-function space, a small banquet hall, and a rooftop swimming pool situated over the underground parkade.",
-  "The façade incorporates Alucobond panels, granite, and full-height glazing on the upper levels, establishing a striking contemporary identity. Multiple design options were explored before the final architectural composition was selected."  
-  ]
-},
-
-{
-  name: "5-Star Hotel & Luxury Residential Condominium – Hainan Island",
-  slug: slugify("5-Star Hotel & Luxury Residential Condominium – Hainan Island"),
-  imgs: ["/projects/5-STAR HOTEL & RESIDENTIAL CONDOMINIUM, Hainan Island, China.jpg"],
-  industry: "Hospitality",
-  category: "Hospitality",
-  subIndustry: "Luxury Beachfront",
-  client: "",
-  status: "Concept",
-  location: "Hainan Island, China",
-  year: "",
-  by: "Arup Datta Architect",
-  brand: "datta",
-  awards: [],
-  description: [
-  "This concept design envisions a landmark 5-star beachfront hotel and luxury residential complex on Hainan Island, integrating hospitality, resort living, and premium residential amenities within a single development. The project includes a 400-room luxury hotel featuring multiple restaurants, spa and fitness facilities, and full banqueting and convention spaces oriented toward ocean views.",
-  "Above the hotel rises a collection of 400 high-end condominium suites, all designed to maximize exposure to the island’s coastal scenery. A full underground parking structure supports the development, preserving the ground plane for pedestrian, leisure, and landscape experiences."  
-  
-  ]
-},
-
-{
+  {
     name: "MacEwan Hall Expansion – University of Calgary",
     slug: slugify("MacEwan Hall Expansion – University of Calgary"),
-    imgs:  ["/projects/MACEWAN HALL EXPANSION, The University of Calgary, Calgary, Alberta.jpg"],
+    imgs: [
+      "/projects/MACEWAN HALL EXPANSION, The University of Calgary, Calgary, Alberta.jpg",
+    ],
     industry: "Institutional",
     category: "Institutional",
     subIndustry: "",
     client: "",
-  status: "",
-  location: "Calgary, Alberta, Canada",
-  year: "",
-  by: "Arup Datta Architect",
-  brand: "datta",
-  awards: [],
-  description: [
-  "The 70,000 sq.ft. MacEwan Hall Expansion enhances the University of Calgary’s student activity and event infrastructure by adding a new 1,800-person ballroom (1,200-person banquet capacity), a 350-seat full-service restaurant, expanded kitchen facilities, retail units, and multi-level lobby connections to both MacEwan Hall and the MacEwan Student Centre.",
-  "The design frees up constrained spaces in the older building, enabling them to be repurposed for other campus functions. The expansion is clad in EIFS, precast panels, extruded metal panels, and acrylic stucco, forming a simple yet elegant façade. High-quality acoustic treatment supports flexible use for concerts, gatherings, and major university events.",
-  "Public circulation integrates seamlessly with the main concourse of the student centre, improving accessibility and campus flow."  
-  ]
+    status: "",
+    location: "Calgary, Alberta, Canada",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "The 70,000 sq.ft. MacEwan Hall Expansion enhances the University of Calgary’s student activity and event infrastructure by adding a new 1,800-person ballroom (1,200-person banquet capacity), a 350-seat full-service restaurant, expanded kitchen facilities, retail units, and multi-level lobby connections to both MacEwan Hall and the MacEwan Student Centre.",
+      "The design frees up constrained spaces in the older building, enabling them to be repurposed for other campus functions. The expansion is clad in EIFS, precast panels, extruded metal panels, and acrylic stucco, forming a simple yet elegant façade. High-quality acoustic treatment supports flexible use for concerts, gatherings, and major university events.",
+      "Public circulation integrates seamlessly with the main concourse of the student centre, improving accessibility and campus flow.",
+    ],
+  },
+  {
+    name: "MacEwan Student Centre – University of Calgary",
+    slug: slugify("MacEwan Student Centre – University of Calgary"),
+    imgs: [
+      "/projects/MACEWAN STUDENT CENTRE, The University of Calgary, Calgary, Alberta2.jpg",
+      "/projects/MACEWAN STUDENT CENTRE, The University of Calgary, Calgary, Alberta.jpg",
+    ],
+    industry: "Institutional",
+    category: "Institutional",
+    subIndustry: "Campus Hub",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta, Canada",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Winner of a competition among 49 national entries, the MacEwan Student Centre is recognized as one of Canada’s leading student hubs. The 175,000 sq.ft. expansion integrates seamlessly with the existing campus fabric through a network of internal halls, courts, landscaped spaces, and connections to the Nickle Arts Museum, Physical Education facilities, and future university developments.",
+      "The centre houses Student Union offices, student services, health and counseling services, a bookstore, Native and International Student Centres, council chambers, a faculty/staff club, and a major retail component.",
+      "Delivered on time and on budget—with $1M savings at post-tender stage—the facility also served as the hospitality centre for the 1988 Winter Olympic Games.",
+    ],
+  },
+
+  {
+    name: "St. Joachim’s Catholic Church",
+    slug: slugify("St. Joachim’s Catholic Church"),
+    imgs: [
+      "/projects/ST. JOACHIM’S CATHOLIC CHURCH, St. John , New Brunswick.jpg",
+    ],
+    industry: "Institutional",
+    category: "Institutional",
+    subIndustry: "Catholic",
+    client: "",
+    status: "",
+    location: "St. John, New Brunswick, Canada",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "St. Joachim’s features an elegant column-free sanctuary achieved using glue-laminated beams, wood decking, and metal roofing. Exterior walls use a brick veneer with a rain-screen system, delivering durability and low maintenance.",
+      "The design emphasizes clear interior sightlines, warmth, and acoustic clarity—supporting worship and community gatherings.",
+    ],
+  },
+
+  {
+    name: "Showers of Blessing Apostolic Church",
+    slug: slugify("Showers of Blessing Apostolic Church"),
+    imgs: ["/projects/SHOWERS OF BLESSING, APOSTOLIC CHURCH, Calgary, Alberta.jpg"],
+    industry: "Institutional/Religious / Community / Multi-Use Facility",
+    category: "Institutional",
+    subIndustry: "Multi-Use",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta, Canada",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+    "This 22,000 sq.ft. multi-functional church complex includes a 450-seat sanctuary, administrative offices, and a lower-level activity space designed for bible classes, community events, and church programs. A large community kitchen supports gatherings, and the project is phased to allow incremental construction aligned with budget and growth needs."  
+    ]
   },
 {
-  name: "MacEwan Student Centre – University of Calgary",
-  slug: slugify("MacEwan Student Centre – University of Calgary"),
-  imgs: ["/projects/MACEWAN STUDENT CENTRE, The University of Calgary, Calgary, Alberta2.jpg" ,
-    "/projects/MACEWAN STUDENT CENTRE, The University of Calgary, Calgary, Alberta.jpg"
-  ],
-  industry: "Institutional",
+  name: "Owerri Arts & Cultural Centre",
+  slug: slugify("Owerri Arts & Cultural Centre"),
+  imgs: ["/projects/OWERRI CULTURAL CENTRE, IMO State, Nigeria2.jpg" , "/projects/OWERRI CULTURAL CENTRE, IMO State, Nigeria.jpg"],
+  industry: "Institutional /Cultural / Civic ",
   category: "Institutional",
-  subIndustry: "Campus Hub",
+  subIndustry: "Performing Arts",
   client: "",
-  status: "",
-  location: "Calgary, Alberta, Canada",
+  status: "Competition Winner",
+  location: "Owerri, Imo State, Nigeria",
   year: "",
   by: "Arup Datta Architect",
   brand: "datta",
-  awards: [],
+  awards: ["National Design Competition Winner"],
   description: [
-  "Winner of a competition among 49 national entries, the MacEwan Student Centre is recognized as one of Canada’s leading student hubs. The 175,000 sq.ft. expansion integrates seamlessly with the existing campus fabric through a network of internal halls, courts, landscaped spaces, and connections to the Nickle Arts Museum, Physical Education facilities, and future university developments.",
-  "The centre houses Student Union offices, student services, health and counseling services, a bookstore, Native and International Student Centres, council chambers, a faculty/staff club, and a major retail component.",
-  "Delivered on time and on budget—with $1M savings at post-tender stage—the facility also served as the hospitality centre for the 1988 Winter Olympic Games."  
+  "Winner of a national open competition, the Owerri Arts & Cultural Centre master plan features a 2,000-seat auditorium, arts and cultural buildings, an administrative centre, open-air auditoria, and support facilities. The design reinforces Owerri’s cultural mission through training, performance, and community engagement.",
+  "The auditorium’s interior is conceived as a sequence of multi-level foyers that meander like medieval streets, enhancing movement, anticipation, and spatial drama. Seating on three sides of the centre stage enhances both intimate and large-scale performances.",
+  "A bridge links the Main Auditorium to the Arts & Cultural Centre, ensuring seamless circulation for both performers and the public—even under harsh seasonal conditions."  
   ]
 },
 
 
-// {
-//   name: "St. Joachim’s Catholic Church",
-//   slug: slugify("St. Joachim’s Catholic Church"),
-//   imgs: ["/projects/StJoachimsChurch.png"],
-//   industry: "Institutional / Religious",
-//   category: "Church",
-//   subIndustry: "Catholic",
-//   client: "",
-//   status: "",
-//   location: "St. John, New Brunswick, Canada",
-//   year: "",
-//   by: "Arup Datta Architect",
-//   brand: "datta",
-//   awards: [],
-//   description: [
-//     "St. Joachim’s Catholic Church was designed to create a warm, welcoming, and acoustically refined worship environment. The sanctuary is developed as a completely column-free space through the use of glue-laminated timber beams, wood decking, and durable metal roofing systems, ensuring clear sightlines for all congregants.",
-//     "The exterior envelope employs a brick veneer rain-screen system that enhances long-term durability while minimizing maintenance requirements. This layered construction approach improves moisture control, thermal performance, and overall building longevity while maintaining a timeless civic architectural expression.",
-//     "Interior design decisions prioritize acoustic clarity, spatial warmth, and visual simplicity, supporting both reflective worship and larger community gatherings. The architecture reinforces a strong sense of unity and openness while delivering practical performance for liturgical and social functions."
-//   ]
-// },
 
 
 
@@ -1319,22 +1373,6 @@ const projectsData = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
   {
     name: "Mcdougall Multi-Family",
@@ -1595,79 +1633,3 @@ const projectsData = [
 ];
 
 export default projectsData;
-
-
-  
-  
-  
-  
-  
-  
-
-
-
-// // ==== PROJECT 45A — St. Joachim’s Catholic Church ====
-
-
-// // ==== PROJECT 45B — Showers of Blessing Apostolic Church ====
-// {
-//   name: "Showers of Blessing Apostolic Church",
-//   slug: slugify("Showers of Blessing Apostolic Church"),
-//   imgs: ["/projects/ShowersOfBlessingChurch.png"],
-//   industry: "Institutional / Religious",
-//   category: "Church / Community Centre",
-//   subIndustry: "Multi-Use",
-//   client: "",
-//   status: "",
-//   location: "Calgary, Alberta, Canada",
-//   year: "",
-//   by: "Arup Datta Architect",
-//   brand: "datta",
-//   awards: [],
-//   description: [
-//     "This 22,000 square foot multi-functional church complex was designed to serve as both a spiritual home and a community gathering facility. The project includes a 450-seat sanctuary that supports worship services, performances, and special events, alongside administrative offices that manage church operations.",
-//     "A lower-level activity space was created to accommodate bible study programs, youth initiatives, and a wide range of community events. These flexible areas allow the building to function as a social anchor beyond traditional religious services.",
-//     "The complex incorporates a large, fully equipped community kitchen that supports shared meals, celebrations, and outreach programs. The project was carefully phased to allow incremental construction aligned with budget availability and congregation growth, ensuring long-term adaptability and sustainable development."
-//   ]
-// },
-
-// // ==== PROJECT 46 — Owerri Arts & Cultural Centre ====
-// {
-//   name: "Owerri Arts & Cultural Centre",
-//   slug: slugify("Owerri Arts & Cultural Centre"),
-//   imgs: ["/projects/OwerriCulturalCentre.png"],
-//   industry: "Institutional / Cultural",
-//   category: "Cultural Complex",
-//   subIndustry: "Performing Arts",
-//   client: "",
-//   status: "Competition Winner",
-//   location: "Owerri, Imo State, Nigeria",
-//   year: "",
-//   by: "Arup Datta Architect",
-//   brand: "datta",
-//   awards: ["National Design Competition Winner"],
-//   description: [
-//     "Winner of a national open competition, the Owerri Arts and Cultural Centre master plan establishes a comprehensive civic and cultural destination designed to support artistic expression, education, and large-scale public engagement. The project includes a 2,000-seat main auditorium, dedicated arts and cultural buildings, administrative offices, multiple open-air performance spaces, and a full range of operational support facilities.",
-//     "The interior of the main auditorium is conceived as a dramatic sequence of interconnected, multi-level foyer spaces that unfold like medieval streets, creating a dynamic spatial journey that intensifies anticipation as visitors move toward the performance halls. Seating is arranged on three sides around a central stage to strengthen the connection between performers and audiences, enabling both intimate performances and large-scale cultural productions.",
-//     "A connecting bridge links the Main Auditorium directly to the Arts and Cultural Centre, ensuring seamless circulation for performers, staff, and the public. This design strategy enables uninterrupted movement even in challenging seasonal conditions while strengthening the architectural dialogue between the major cultural components of the complex."
-//   ]
-// }
-// );
-
-// export default projectsData;
-
-  
-
- 
-  
-
-  
-  
-  
-
-  
-
-
-
-
-

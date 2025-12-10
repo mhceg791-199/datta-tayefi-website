@@ -822,7 +822,7 @@ const projectsData = [
     slug: slugify("Professional Building"),
     imgs: ["/projects/PROFESSIONAL BUILDING, Calgary, Alberta.jpg"],
     industry: "Commercial / Office / Medical / Retail",
-    category: "Mixed-Use",
+    category: "Commercial",
     subIndustry: "",
     client: "",
     status: "",

@@ -598,27 +598,27 @@ const projectsData = [
       "ADAL serves as the Prime Consultant and Lead Architect, overseeing the full architectural scope.",
     ],
   },
-  // {
-  //   name: "Office Buildings Portfolio",
-  //   slug: slugify("Office Buildings Portfolio"),
-  //   imgs: ["/projects/Commercial.png"],
-  //   industry: "Commercial",
-  //   category: "Commercial",
-  //   subIndustry: "Office Towers",
-  //   client: "",
-  //   status: "",
-  //   location: "Western Canada & United States",
-  //   year: "",
-  //   by: "Arup Datta Architect",
-  //   brand: "datta",
-  //   awards: [],
-  //   description: [
-  //     "This portfolio represents more than four million square feet of office development across major cities in Canada and the United States.",
-  //     "Projects include landmark towers such as the AGT Toll Buildings in Calgary and Edmonton, the CN Tower office complex in Edmonton, Calgary Place, One Denver Place, and several additional high-rise commercial buildings.",
-  //     "The work spans design, consulting, and architectural leadership roles, contributing to the development of prominent corporate office spaces, mixed-use podiums, and retail-integrated tower complexes.",
-  //     "These projects strengthen the architectural fabric of urban cores while delivering functional, leasable, and structurally efficient commercial environments."
-  //   ]
-  // },
+  {
+    name: "Office Buildings Portfolio",
+    slug: slugify("Office Buildings Portfolio"),
+    imgs: ["/projects/WESTERN CANADIAN  office.jpg"],
+    industry: "Commercial",
+    category: "Commercial",
+    subIndustry: "Office Towers",
+    client: "",
+    status: "",
+    location: "Western Canada & United States",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "This portfolio represents more than four million square feet of office development across major cities in Canada and the United States.",
+      "Projects include landmark towers such as the AGT Toll Buildings in Calgary and Edmonton, the CN Tower office complex in Edmonton, Calgary Place, One Denver Place, and several additional high-rise commercial buildings.",
+      "The work spans design, consulting, and architectural leadership roles, contributing to the development of prominent corporate office spaces, mixed-use podiums, and retail-integrated tower complexes.",
+      "These projects strengthen the architectural fabric of urban cores while delivering functional, leasable, and structurally efficient commercial environments."
+    ]
+  },
   {
     name: "Olympic Centre",
     slug: slugify("Olympic Centre"),
@@ -858,25 +858,24 @@ const projectsData = [
     ],
   },
 
-  // {
-  //   name: "Office Building – Chennai (Concept Design)",
-  //   slug: slugify("Office Building – Chennai (Concept Design)"),
-  //   imgs: ["/projects/ChennaiOfficeConcept.png"],
-  //   industry: "Commercial / Office",
-  //   category: "Commercial",
-  //   subIndustry: "",
-  //   client: "",
-  //   status: "Concept",
-  //   location: "Chennai, India",
-  //   year: "",
-  //   by: "Arup Datta Architect",
-  //   brand: "datta",
-  //   awards: [],
-  //   description: [
-  //     "Conceptual office design for Chennai demonstrating multiple architectural alternatives.",
-  //     "Façade uses granite, stone, and glass with high-tech services to enhance workplace functionality."
-  //   ]
-  // },
+  {
+    name: "Office Building – Chennai (Concept Design)",
+    slug: slugify("Office Building – Chennai (Concept Design)"),
+    imgs: ["/projects/OFFICE BUILDING, Chennai, India.png"],
+    industry: "Commercial / Office",
+    category: "Commercial",
+    subIndustry: "",
+    client: "",
+    status: "Concept",
+    location: "Chennai, India",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "Located in downtown Airdrie, this 45,000 sq.ft. office building aligns with the city’s new redevelopment guidelines. The ground floor includes a bank and street-accessible commercial retail units, while office spaces occupy the second and third floors. Underground parking supports the development’s urban functionality."
+    ]
+  },
 
   {
     name: "Batra Centre",

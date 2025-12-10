@@ -996,25 +996,25 @@ const projectsData = [
   //   ]
   // },
 
-  {
-    name: "Hotel & Themed Suite Portfolio – Edmonton & International",
-    slug: slugify("Hotel & Themed Suite Portfolio – Edmonton & International"),
-    imgs: ["/projects/HotelPortfolio.png"],
-    industry: "Hospitality",
-    category: "Hotel / Suites / Mixed-Use",
-    subIndustry: "",
-    client: "",
-    status: "",
-    location: "Edmonton, Alberta & International",
-    year: "",
-    by: "Arup Datta Architect",
-    brand: "datta",
-    awards: [],
-    description: [
-      "Portfolio includes major Edmonton hotels and themed suites with mixed-use hospitality complexes.",
-      "Projects: Fantasy Hotel (360 units), Convention Inn South (300), Centre Suite Hotel (330), Argyll Hotel (60), Tower on the Park (80), plus themed suites (Roman, Polynesian, Coach, Truck)."
-    ]
-  },
+  // {
+  //   name: "Hotel & Themed Suite Portfolio – Edmonton & International",
+  //   slug: slugify("Hotel & Themed Suite Portfolio – Edmonton & International"),
+  //   imgs: ["/projects/HotelPortfolio.png"],
+  //   industry: "Hospitality",
+  //   category: "Hospitality",
+  //   subIndustry: "",
+  //   client: "",
+  //   status: "",
+  //   location: "Edmonton, Alberta & International",
+  //   year: "",
+  //   by: "Arup Datta Architect",
+  //   brand: "datta",
+  //   awards: [],
+  //   description: [
+  //     "Portfolio includes major Edmonton hotels and themed suites with mixed-use hospitality complexes.",
+  //     "Projects: Fantasy Hotel (360 units), Convention Inn South (300), Centre Suite Hotel (330), Argyll Hotel (60), Tower on the Park (80), plus themed suites (Roman, Polynesian, Coach, Truck)."
+  //   ]
+  // },
   // {
   //   name: "The Kovai Grand Hotel",
   //   slug: slugify("The Kovai Grand Hotel"),
@@ -1112,16 +1112,17 @@ const projectsData = [
       "The inn provides a getaway experience blending accommodation, dining, and small-scale event hosting in a natural mountain setting."
     ]
   },
+
 {
-  name: "Holiday Inn SunSpree Resort – Osoyoos",
-  slug: slugify("Holiday Inn SunSpree Resort – Osoyoos"),
+    name: "Holiday Inn SunSpree Resort – Osoyoos",
+    slug: slugify("Holiday Inn SunSpree Resort – Osoyoos"),
   imgs: ["/projects/HOLIDAY INN SUNSPREE RESORT, Osoyoos, British Columbia.jpg"],
-  industry: "Hospitality",
-  category: "Hospitality ",
-  subIndustry: "Waterfront Resort",
-  client: "",
-  status: "",
-  location: "Osoyoos, British Columbia, Canada",
+    industry: "Hospitality",
+    category: "Hospitality",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Osoyoos, British Columbia, Canada",
   year: "",
   by: "Arup Datta Architect",
   brand: "datta",
@@ -1131,6 +1132,11 @@ const projectsData = [
     "Built on a challenging site bordered by water on both sides, the project maximizes views and layout efficiency. The planning approach delivered major cost savings through optimized code analysis and flexible suite designs, resulting in a highly functional and economical resort development."
     ]
 },
+
+
+
+
+
 
 {
   name: "Destination Resort – Osoyoos",
@@ -1276,27 +1282,27 @@ const projectsData = [
   ]
 },
 
+
 // {
-//   name: "Penticton Community Christian School",
-//   slug: slugify("Penticton Community Christian School"),
-//   imgs: ["/projects/PentictonSchool.png"],
-//   industry: "Institutional / Educational",
-//   category: "Elementary School",
-//   subIndustry: "Phased Master Plan",
+//   name: "St. Joachim’s Catholic Church",
+//   slug: slugify("St. Joachim’s Catholic Church"),
+//   imgs: ["/projects/StJoachimsChurch.png"],
+//   industry: "Institutional / Religious",
+//   category: "Church",
+//   subIndustry: "Catholic",
 //   client: "",
 //   status: "",
-//   location: "Penticton, British Columbia, Canada",
+//   location: "St. John, New Brunswick, Canada",
 //   year: "",
 //   by: "Arup Datta Architect",
 //   brand: "datta",
 //   awards: [],
 //   description: [
-//     "Located in the Carmi Heights area, this 36,000 square foot elementary school was planned as a phased master development to accommodate long-term growth and changing educational needs. The design organizes classrooms into primary, middle, and future expansion pods, allowing the school to evolve while maintaining operational clarity and spatial efficiency.",
-//     "The program includes a kindergarten suite, eight dedicated classrooms, specialized spaces for music education, computer studies, and science laboratories, as well as a fully functional kitchen, library and resource centre, administrative offices, counselling rooms, and building service areas that support the facility’s daily operations.",
-//     "The gymnasium incorporates multiple activity zones to support physical education and extracurricular programming. Early learning pods were intentionally designed to reflect the feeling of a home-like environment, fostering comfort, security, and familiarity for young children. Site planning and circulation strategies were implemented to ensure cost-effective construction and future expansion capacity."
+//     "St. Joachim’s Catholic Church was designed to create a warm, welcoming, and acoustically refined worship environment. The sanctuary is developed as a completely column-free space through the use of glue-laminated timber beams, wood decking, and durable metal roofing systems, ensuring clear sightlines for all congregants.",
+//     "The exterior envelope employs a brick veneer rain-screen system that enhances long-term durability while minimizing maintenance requirements. This layered construction approach improves moisture control, thermal performance, and overall building longevity while maintaining a timeless civic architectural expression.",
+//     "Interior design decisions prioritize acoustic clarity, spatial warmth, and visual simplicity, supporting both reflective worship and larger community gatherings. The architecture reinforces a strong sense of unity and openness while delivering practical performance for liturgical and social functions."
 //   ]
 // },
-
 
 
 
@@ -1601,26 +1607,7 @@ export default projectsData;
 
 
 // // ==== PROJECT 45A — St. Joachim’s Catholic Church ====
-// {
-//   name: "St. Joachim’s Catholic Church",
-//   slug: slugify("St. Joachim’s Catholic Church"),
-//   imgs: ["/projects/StJoachimsChurch.png"],
-//   industry: "Institutional / Religious",
-//   category: "Church",
-//   subIndustry: "Catholic",
-//   client: "",
-//   status: "",
-//   location: "St. John, New Brunswick, Canada",
-//   year: "",
-//   by: "Arup Datta Architect",
-//   brand: "datta",
-//   awards: [],
-//   description: [
-//     "St. Joachim’s Catholic Church was designed to create a warm, welcoming, and acoustically refined worship environment. The sanctuary is developed as a completely column-free space through the use of glue-laminated timber beams, wood decking, and durable metal roofing systems, ensuring clear sightlines for all congregants.",
-//     "The exterior envelope employs a brick veneer rain-screen system that enhances long-term durability while minimizing maintenance requirements. This layered construction approach improves moisture control, thermal performance, and overall building longevity while maintaining a timeless civic architectural expression.",
-//     "Interior design decisions prioritize acoustic clarity, spatial warmth, and visual simplicity, supporting both reflective worship and larger community gatherings. The architecture reinforces a strong sense of unity and openness while delivering practical performance for liturgical and social functions."
-//   ]
-// },
+
 
 // // ==== PROJECT 45B — Showers of Blessing Apostolic Church ====
 // {

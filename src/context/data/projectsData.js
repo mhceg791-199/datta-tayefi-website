@@ -224,32 +224,32 @@ const projectsData = [
       "The Nigerian Industrial Bank Headquarters, Convention Centre, and Shopping Complex in Abuja is a mixed-use development that serves as the headquarters for the Nigerian Industrial Bank (NIB). The complex includes office spaces for NIB, a convention centre for large events, and a shopping complex with retail, dining, and entertainment options, contributing to the city's economic growth.",
     ],
   },
-  {
-    name: "Olympic Center",
-    slug: slugify("Olympic Center"),
-    imgs: [
-      "/projects/Olympic/1.webp",
-      "/projects/Olympic/2.webp",
-      "/projects/Olympic/3.webp",
-      "/projects/Olympic/4.webp",
-      "/projects/Olympic/5.webp",
-      "/projects/Olympic/6.webp",
-      "/projects/Olympic/7.webp",
-      "/projects/Olympic/8.webp",
-    ],
-    industry: "Interior Design",
-    category: "Commercial",
-    subIndustry: "Commercial",
-    client: "WinSport",
-    status: "Completed",
-    location: "Canada",
-    year: "2023",
-    brand: "datta",
-    by: "Arup Datta Architect",
-    description: [
-      "The Olympic Center in Calgary, AB, primarily serves the Sports and Recreation industry, focusing on Sports Facilities Management and Community Recreation Services. It includes WinSport Canada Olympic Park, originally built for the 1988 Winter Olympics, offering ski, snowboard, and bobsleigh facilities, and the Markin MacPhail Centre for sports training. The Olympic Plaza in downtown Calgary is a community space being redeveloped for arts and events. The client for these facilities is WinSport, a non-profit organization promoting sports and recreation in Canada.",
-    ],
-  },
+  // {
+  //   name: "Olympic Center",
+  //   slug: slugify("Olympic Center"),
+  //   imgs: [
+  //     "/projects/Olympic/1.webp",
+  //     "/projects/Olympic/2.webp",
+  //     "/projects/Olympic/3.webp",
+  //     "/projects/Olympic/4.webp",
+  //     "/projects/Olympic/5.webp",
+  //     "/projects/Olympic/6.webp",
+  //     "/projects/Olympic/7.webp",
+  //     "/projects/Olympic/8.webp",
+  //   ],
+  //   industry: "Interior Design",
+  //   category: "Commercial",
+  //   subIndustry: "Commercial",
+  //   client: "WinSport",
+  //   status: "Completed",
+  //   location: "Canada",
+  //   year: "2023",
+  //   brand: "datta",
+  //   by: "Arup Datta Architect",
+  //   description: [
+  //     "The Olympic Center in Calgary, AB, primarily serves the Sports and Recreation industry, focusing on Sports Facilities Management and Community Recreation Services. It includes WinSport Canada Olympic Park, originally built for the 1988 Winter Olympics, offering ski, snowboard, and bobsleigh facilities, and the Markin MacPhail Centre for sports training. The Olympic Plaza in downtown Calgary is a community space being redeveloped for arts and events. The client for these facilities is WinSport, a non-profit organization promoting sports and recreation in Canada.",
+  //   ],
+  // },
   {
     name: "Paradiso Greystone Plaza",
     slug: slugify("Paradiso Greystone Plaza"),
@@ -614,25 +614,25 @@ const projectsData = [
   //     "These projects strengthen the architectural fabric of urban cores while delivering functional, leasable, and structurally efficient commercial environments."
   //   ]
   // },
-  // {
-  //   name: "Olympic Centre",
-  //   slug: slugify("Olympic Centre"),
-  //   imgs: ["/projects/Mixed-Use.png"],
-  //   industry: "Mixed-Use",
-  //   category: "Mixed-Use",
-  //   subIndustry: "",
-  //   client: "",
-  //   status: "",
-  //   location: "Calgary, Alberta",
-  //   year: "",
-  //   by: "Arup Datta Architect",
-  //   brand: "datta",
-  //   awards: [],
-  //   description: [
-  //     "The Olympic Centre is a competition-winning master plan and concept design for a 4-tower, 220,000 sq.m. mixed-use office and retail complex spanning the railway tracks between 9th & 10th Avenues and 4th & 5th Streets SW in Calgary. The design maximizes executive corner offices while prioritizing pedestrian-friendly public spaces that enhance the city’s streetscape.",
-  //     "A signature landscaped atrium deck bridges the tracks and connects north–south and east–west urban flows through Calgary’s +15 system. Selected from 14 design concepts, the project was recognized for its flexible planning, strong urban integration, and cost-effective architectural response to the site’s complexities."
-  //   ]
-  // }
+  {
+    name: "Olympic Centre",
+    slug: slugify("Olympic Centre"),
+    imgs: ["/projects/LOLYMPIC CENTRE, Calgary, Alberta.jpg"],
+    industry: "Mixed-Use",
+    category: "Mixed-Use",
+    subIndustry: "",
+    client: "",
+    status: "",
+    location: "Calgary, Alberta",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: [],
+    description: [
+      "The Olympic Centre is a competition-winning master plan and concept design for a 4-tower, 220,000 sq.m. mixed-use office and retail complex spanning the railway tracks between 9th & 10th Avenues and 4th & 5th Streets SW in Calgary. The design maximizes executive corner offices while prioritizing pedestrian-friendly public spaces that enhance the city’s streetscape.",
+      "A signature landscaped atrium deck bridges the tracks and connects north–south and east–west urban flows through Calgary’s +15 system. Selected from 14 design concepts, the project was recognized for its flexible planning, strong urban integration, and cost-effective architectural response to the site’s complexities."
+    ]
+  },
  {
     name: "Bankers Hall – Original Scheme",
     slug: slugify("Bankers Hall – Original Scheme"),

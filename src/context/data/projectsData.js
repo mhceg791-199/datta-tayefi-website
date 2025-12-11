@@ -616,8 +616,8 @@ const projectsData = [
       "This portfolio represents more than four million square feet of office development across major cities in Canada and the United States.",
       "Projects include landmark towers such as the AGT Toll Buildings in Calgary and Edmonton, the CN Tower office complex in Edmonton, Calgary Place, One Denver Place, and several additional high-rise commercial buildings.",
       "The work spans design, consulting, and architectural leadership roles, contributing to the development of prominent corporate office spaces, mixed-use podiums, and retail-integrated tower complexes.",
-      "These projects strengthen the architectural fabric of urban cores while delivering functional, leasable, and structurally efficient commercial environments."
-    ]
+      "These projects strengthen the architectural fabric of urban cores while delivering functional, leasable, and structurally efficient commercial environments.",
+    ],
   },
   {
     name: "Olympic Centre",
@@ -873,8 +873,8 @@ const projectsData = [
     brand: "datta",
     awards: [],
     description: [
-      "Located in downtown Airdrie, this 45,000 sq.ft. office building aligns with the city’s new redevelopment guidelines. The ground floor includes a bank and street-accessible commercial retail units, while office spaces occupy the second and third floors. Underground parking supports the development’s urban functionality."
-    ]
+      "Located in downtown Airdrie, this 45,000 sq.ft. office building aligns with the city’s new redevelopment guidelines. The ground floor includes a bank and street-accessible commercial retail units, while office spaces occupy the second and third floors. Underground parking supports the development’s urban functionality.",
+    ],
   },
 
   {
@@ -1319,7 +1319,9 @@ const projectsData = [
   {
     name: "Showers of Blessing Apostolic Church",
     slug: slugify("Showers of Blessing Apostolic Church"),
-    imgs: ["/projects/SHOWERS OF BLESSING, APOSTOLIC CHURCH, Calgary, Alberta.jpg"],
+    imgs: [
+      "/projects/SHOWERS OF BLESSING, APOSTOLIC CHURCH, Calgary, Alberta.jpg",
+    ],
     industry: "Institutional/Religious / Community / Multi-Use Facility",
     category: "Institutional",
     subIndustry: "Multi-Use",
@@ -1331,47 +1333,34 @@ const projectsData = [
     brand: "datta",
     awards: [],
     description: [
-    "This 22,000 sq.ft. multi-functional church complex includes a 450-seat sanctuary, administrative offices, and a lower-level activity space designed for bible classes, community events, and church programs. A large community kitchen supports gatherings, and the project is phased to allow incremental construction aligned with budget and growth needs."  
-    ]
+      "This 22,000 sq.ft. multi-functional church complex includes a 450-seat sanctuary, administrative offices, and a lower-level activity space designed for bible classes, community events, and church programs. A large community kitchen supports gatherings, and the project is phased to allow incremental construction aligned with budget and growth needs.",
+    ],
   },
-{
-  name: "Owerri Arts & Cultural Centre",
-  slug: slugify("Owerri Arts & Cultural Centre"),
-  imgs: ["/projects/OWERRI CULTURAL CENTRE, IMO State, Nigeria2.jpg" , "/projects/OWERRI CULTURAL CENTRE, IMO State, Nigeria.jpg"],
-  industry: "Institutional /Cultural / Civic ",
-  category: "Institutional",
-  subIndustry: "Performing Arts",
-  client: "",
-  status: "Competition Winner",
-  location: "Owerri, Imo State, Nigeria",
-  year: "",
-  by: "Arup Datta Architect",
-  brand: "datta",
-  awards: ["National Design Competition Winner"],
-  description: [
-  "Winner of a national open competition, the Owerri Arts & Cultural Centre master plan features a 2,000-seat auditorium, arts and cultural buildings, an administrative centre, open-air auditoria, and support facilities. The design reinforces Owerri’s cultural mission through training, performance, and community engagement.",
-  "The auditorium’s interior is conceived as a sequence of multi-level foyers that meander like medieval streets, enhancing movement, anticipation, and spatial drama. Seating on three sides of the centre stage enhances both intimate and large-scale performances.",
-  "A bridge links the Main Auditorium to the Arts & Cultural Centre, ensuring seamless circulation for both performers and the public—even under harsh seasonal conditions."  
-  ]
-},
+  {
+    name: "Owerri Arts & Cultural Centre",
+    slug: slugify("Owerri Arts & Cultural Centre"),
+    imgs: [
+      "/projects/OWERRI CULTURAL CENTRE, IMO State, Nigeria2.jpg",
+      "/projects/OWERRI CULTURAL CENTRE, IMO State, Nigeria.jpg",
+    ],
+    industry: "Institutional /Cultural / Civic ",
+    category: "Institutional",
+    subIndustry: "Performing Arts",
+    client: "",
+    status: "Competition Winner",
+    location: "Owerri, Imo State, Nigeria",
+    year: "",
+    by: "Arup Datta Architect",
+    brand: "datta",
+    awards: ["National Design Competition Winner"],
+    description: [
+      "Winner of a national open competition, the Owerri Arts & Cultural Centre master plan features a 2,000-seat auditorium, arts and cultural buildings, an administrative centre, open-air auditoria, and support facilities. The design reinforces Owerri’s cultural mission through training, performance, and community engagement.",
+      "The auditorium’s interior is conceived as a sequence of multi-level foyers that meander like medieval streets, enhancing movement, anticipation, and spatial drama. Seating on three sides of the centre stage enhances both intimate and large-scale performances.",
+      "A bridge links the Main Auditorium to the Arts & Cultural Centre, ensuring seamless circulation for both performers and the public—even under harsh seasonal conditions.",
+    ],
+  },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////////////////////////
-
-
+  /////////////////////////////////////////
 
   {
     name: "Mcdougall Multi-Family",
@@ -1631,7 +1620,7 @@ const projectsData = [
   },
   //////////
 
-    {
+  {
     name: "Edmonton Trail- Hotel - Hotel Alps",
     slug: slugify("Edmonton Trail- Hotel - Hotel Alps"),
     imgs: ["/projects/tayefi/Edmonton Trail- Hotel - Hotel Alps.jpg"],
@@ -1647,16 +1636,18 @@ const projectsData = [
     description: [
       "This development was originally proposed as a six-storey (6s), 69 ft (21m) hotel named Hotel Alps at 56 Edmonton Trail NE, Calgary by The Alps Group. The project is now cancelled as a hotel and is being re-filed as a mixed-use residential development. ",
 
-"The current proposal involves: 	Residential Units: Dwelling units on the upper floors,	Commercial/Retail: A main floor designed for a reception area and parkade, with a second-floor restaurant/café and services to engage the streetscape.  ",
-"The project is part of the ongoing transformation of Edmonton Trail into an up-and-coming urban node with increased mixed-use density, particularly in the Bridgeland/Renfrew area. "    ],
-    awards: []
+      "The current proposal involves: 	Residential Units: Dwelling units on the upper floors,	Commercial/Retail: A main floor designed for a reception area and parkade, with a second-floor restaurant/café and services to engage the streetscape.  ",
+      "The project is part of the ongoing transformation of Edmonton Trail into an up-and-coming urban node with increased mixed-use density, particularly in the Bridgeland/Renfrew area. ",
+    ],
+    awards: [],
   },
   {
     name: "Okotoks Apartment",
     slug: slugify("Okotoks Apartment"),
-    imgs: ["/projects/tayefi/Okotoks Apartment/Image1.jpg", 
+    imgs: [
+      "/projects/tayefi/Okotoks Apartment/Image1.jpg",
       "/projects/tayefi/Okotoks Apartment/Image2.jpg",
-      "/projects/tayefi/Okotoks Apartment/Image3.jpg"
+      "/projects/tayefi/Okotoks Apartment/Image3.jpg",
     ],
     industry: "Residential",
     category: "Residential",
@@ -1670,15 +1661,17 @@ const projectsData = [
     description: [
       "The proposed development at 103 McRae Street in Okotoks is a four-storey mixed-use building named The Station.",
       "It is planned to feature approximately 68 purpose-built rental apartment units situated above four ground-floor commercial/retail spaces. ",
-      "The project, by Cornerstone Homes, is being pursued under the CMHC's Low Market Initiative, requiring at least 25% of the units to be affordable rentals for 10 years.",      "The project is being pursued under the CMHC Low Market Initiative.",
-      "The design includes no underground parkade, which has been a point of past community discussion regarding parking. Construction is tentatively slated to begin in late 2025. ."
+      "The project, by Cornerstone Homes, is being pursued under the CMHC's Low Market Initiative, requiring at least 25% of the units to be affordable rentals for 10 years.",
+      "The project is being pursued under the CMHC Low Market Initiative.",
+      "The design includes no underground parkade, which has been a point of past community discussion regarding parking. Construction is tentatively slated to begin in late 2025. .",
     ],
-    awards: []
+    awards: [],
   },
-    {
+  {
     name: "Ferraro Rowhouse Redesign",
     slug: slugify("Ferraro Rowhouse Redesign"),
-    imgs: ["/projects/tayefi/Ferraro Rowhouse Redesign/1.jpg",
+    imgs: [
+      "/projects/tayefi/Ferraro Rowhouse Redesign/1.jpg",
       "/projects/tayefi/Ferraro Rowhouse Redesign/2.jpg",
       "/projects/tayefi/Ferraro Rowhouse Redesign/3.jpg",
       "/projects/tayefi/Ferraro Rowhouse Redesign/4.jpg",
@@ -1696,20 +1689,20 @@ const projectsData = [
     by: "Max Tayefi Architect ",
     description: [
       "This is a proposal to redevelop the consolidated parcel at 228 & 230 7th Street NE into a multi-family rental project. The design concept is a purpose-built structure featuring 6 principal dwelling units, each legally accommodating a secondary suite, for a total of 12 residential units.",
-      "This strategy aligns with high-density infill objectives, likely requiring the site to be rezoned to a district like R-CG (Residential-Grade-Oriented Infill). The final design must ensure compliance with all Land Use Bylaw requirements for setbacks, lot coverage, and crucially, parking for all 12 units. "
+      "This strategy aligns with high-density infill objectives, likely requiring the site to be rezoned to a district like R-CG (Residential-Grade-Oriented Infill). The final design must ensure compliance with all Land Use Bylaw requirements for setbacks, lot coverage, and crucially, parking for all 12 units. ",
     ],
-    awards: []
+    awards: [],
   },
 
   {
     name: "Sylvan Lake Apartments",
     slug: slugify("Sylvan Lake Apartments"),
-    imgs: ["/projects/tayefi/Sylvan Lake Apartments/View 1.jpg",
+    imgs: [
+      "/projects/tayefi/Sylvan Lake Apartments/View 1.jpg",
       "/projects/tayefi/Sylvan Lake Apartments/View 1.jpg",
       "/projects/tayefi/Sylvan Lake Apartments/View 2.jpg",
       "/projects/tayefi/Sylvan Lake Apartments/View 3.jpg",
       "/projects/tayefi/Sylvan Lake Apartments/View 4.jpg",
-      
     ],
     industry: "Residential",
     category: "Residential",
@@ -1721,14 +1714,15 @@ const projectsData = [
     brand: "tayefi",
     by: "Max Tayefi Architect ",
     description: [
-      "The site at 5036 52 Street in Sylvan Lake is approved for a high-density, multi-family apartment development in the Downtown district. Zoned for comprehensive development, the large lot has received relaxation for a project featuring up to 94 residential units.This is one of the last large parcels to be developed in the direct downtown core, located just two blocks from the lake and marina.The proposed building will contribute significantly to Sylvan Lake's growth, offering high-demand rental housing near amenities.It represents a major commercial and residential infill opportunity in a prime Central "
+      "The site at 5036 52 Street in Sylvan Lake is approved for a high-density, multi-family apartment development in the Downtown district. Zoned for comprehensive development, the large lot has received relaxation for a project featuring up to 94 residential units.This is one of the last large parcels to be developed in the direct downtown core, located just two blocks from the lake and marina.The proposed building will contribute significantly to Sylvan Lake's growth, offering high-demand rental housing near amenities.It represents a major commercial and residential infill opportunity in a prime Central ",
     ],
-    awards: []
+    awards: [],
   },
   {
     name: "Bowmont Cres, NW, Calgary",
     slug: slugify("Bowmont Cres, NW, Calgary"),
-    imgs: ["/projects/tayefi/Bowmont Rd Fourplex, Calgary/View 1.jpg",
+    imgs: [
+      "/projects/tayefi/Bowmont Rd Fourplex, Calgary/View 1.jpg",
       "/projects/tayefi/Bowmont Rd Fourplex, Calgary/View 2.jpg",
       "/projects/tayefi/Bowmont Rd Fourplex, Calgary/View 3.jpg",
       "/projects/tayefi/Bowmont Rd Fourplex, Calgary/View 4.jpg",
@@ -1751,18 +1745,18 @@ const projectsData = [
       "The design includes a rear lane-accessible garage for parking and aims to blend with the established neighborhood character. ",
       "This development is a prime example of the City of Calgary's strategy to introduce gentle density through infill along existing low-density streets. ",
     ],
-    awards: []
+    awards: [],
   },
   {
     name: "Strathmore Apartments",
     slug: slugify("Strathmore Apartments"),
-    imgs: ["/projects/tayefi/Strathmore Apartments/View 1.jpg", 
+    imgs: [
+      "/projects/tayefi/Strathmore Apartments/View 1.jpg",
       "/projects/tayefi/Strathmore Apartments/View 2.jpg",
       "/projects/tayefi/Strathmore Apartments/View 3.jpg",
       "/projects/tayefi/Strathmore Apartments/View 4.jpg",
       "/projects/tayefi/Strathmore Apartments/View 5.jpg",
       "/projects/tayefi/Strathmore Apartments/View 6.jpg",
-      
     ],
     industry: "Residential",
     category: "Residential",
@@ -1776,18 +1770,18 @@ const projectsData = [
     description: [
       "The parcel at 1005C Westmount Drive in Strathmore is a 1.41-acre vacant lot zoned for high-density residential development (R3).",
       "This prime piece of real estate is situated directly across the street from Strathmore Lake, offering excellent views and access to walking paths.",
-      "It is one of the last remaining high-density infill opportunities in the established and desirable Strathmore Lakes Estates community."
-      ,
+      "It is one of the last remaining high-density infill opportunities in the established and desirable Strathmore Lakes Estates community.",
       "The successful development would likely be a multi-storey apartment or condominium building, mirroring the adjacent Savana Complex (1005A and 1005B). ",
 
-      "This site is marketed as an investment opportunity to satisfy the growing demand for multi-family housing in Strathmore. "
+      "This site is marketed as an investment opportunity to satisfy the growing demand for multi-family housing in Strathmore. ",
     ],
-    awards: []
+    awards: [],
   },
   {
     name: "Bowness Stacked Townhomes",
     slug: slugify("Bowness Stacked Townhomes"),
-    imgs: ["/projects/tayefi/Bowness Stacked Townhomes/1.png",
+    imgs: [
+      "/projects/tayefi/Bowness Stacked Townhomes/1.png",
       "/projects/tayefi/Bowness Stacked Townhomes/2.png",
       "/projects/tayefi/Bowness Stacked Townhomes/4.png",
       "/projects/tayefi/Bowness Stacked Townhomes/5.png",
@@ -1808,20 +1802,21 @@ const projectsData = [
       "The project is designed as a stacked townhome building, making efficient use of the land parcel. ",
       "It consists of a total of 8 dwelling units, comprising four large upper units and four smaller lower units. ",
       "The upper units are planned as three-bedroom, 2.5-bathroom family-sized homes, while the lower units are one-bedroom, one-bathroom suites. ",
-      "This development promotes high-quality, dense housing options within the established Bowness community, with convenient access to Bowness Park and major amenities. "
+      "This development promotes high-quality, dense housing options within the established Bowness community, with convenient access to Bowness Park and major amenities. ",
     ],
-    awards: []
+    awards: [],
   },
   {
     name: "Harvie Heights Resort",
     slug: slugify("Harvie Heights Resort"),
-    imgs: ["/projects/tayefi/Harvie Heights Resort/v10p.jpg",
+    imgs: [
+      "/projects/tayefi/Harvie Heights Resort/v10p.jpg",
       "/projects/tayefi/Harvie Heights Resort/v8p.jpg",
       "/projects/tayefi/Harvie Heights Resort/v9.jpg",
     ],
-    industry: "Hospitality",
-    category: "Hospitality",
-    subIndustry: "Hospitality",
+    industry: "Residential",
+    category: "Residential",
+    subIndustry: "Residential",
     client: "",
     status: "",
     location: "",
@@ -1831,38 +1826,10 @@ const projectsData = [
     description: [
       "This project is a proposed development of 64 to 68 townhouse units on a 1.75-acre parcel at 1050 Harvie Heights Road, replacing or expanding the existing resort accommodations.",
       "Given the site's zoning (likely Highway Commercial), the townhouses would be used for short-term visitor rentals, capitalizing on the strong tourism market between Canmore and Banff. ",
-      "The development, if approved, would contribute significantly to the area's lodging capacity. Any such high-density project in Harvie Heights is subject to rigorous review by the Municipal District of Bighorn concerning traffic, parking, and impact on the existing community. "
+      "The development, if approved, would contribute significantly to the area's lodging capacity. Any such high-density project in Harvie Heights is subject to rigorous review by the Municipal District of Bighorn concerning traffic, parking, and impact on the existing community. ",
     ],
-    awards: []
-  }
+    awards: [],
+  },
 ];
 
 export default projectsData;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

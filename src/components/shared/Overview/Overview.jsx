@@ -48,7 +48,7 @@ export default function OverviewSection() {
         viewport={{ once: true }}
         className="relative z-10 font-bold text-center mb-6 md:mb-12 tracking-wide"
       >
-        <SectionHeader firstWord="Overviews" />
+        <SectionHeader firstWord="Overview" />
       </motion.h2>
 
       <div className="relative z-10 max-w-8xl mx-auto">

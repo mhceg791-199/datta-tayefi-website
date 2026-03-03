@@ -28,7 +28,7 @@ function SocialMedia() {
         <div className="col-span-1 mx-2  flex justify-center items-center">
           <Link
             target="_blank"
-            to="https://www.linkedin.com/company/mosaic-holding-corporation/?viewAsMember=true"
+            to="https://www.linkedin.com/company/datta-and-tayefi/"
           >
             <i className="fa-brands fa-linkedin text-lightColor rounded-full p-2 text-lg border-lightColor border-[3px]"></i>
           </Link>

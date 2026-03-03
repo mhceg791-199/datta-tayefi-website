@@ -23,7 +23,7 @@ function Footer() {
       <div className="md:col-span-2 flex justify-center items-center lg:px-8">
         <Link to="/home" className="block">
           <img
-            className="object-contain w-[75%] md:w-full m-auto"
+            className="object-contain w-[40%] md:w-[80%] m-auto"
             src={logo}
             loading="lazy"
             alt="logo"

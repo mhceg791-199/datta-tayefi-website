@@ -11,7 +11,7 @@ export default function Landing() {
         <img
           src={logo}
           alt="Datta And Tayefi"
-          className="w-[45%] md:w-[20%] object-contain cursor-pointer"
+          className="w-[45%] md:w-[15%] object-contain cursor-pointer"
         />
       </Link>
 

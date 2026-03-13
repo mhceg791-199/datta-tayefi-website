@@ -18,6 +18,7 @@ import Career from "./pages/Career/Career";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import Terms from "./pages/Terms/Terms";
 import Privacy from "./pages/Privacy/Privacy";
+import ScrollToTop from "./components/shared/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           }
         />
       </Routes>
+      <ScrollToTop/>
       <ScrollToTopButton />
       {/* <div
       style={{

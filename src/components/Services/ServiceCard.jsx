@@ -35,8 +35,7 @@ export default function ServiceCard() {
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
           >
-            <Link
-              to={`/`}
+            <div
               className="relative group rounded-xl overflow-hidden shadow-lg block"
             >
               <div className="overflow-hidden relative">
@@ -67,26 +66,26 @@ export default function ServiceCard() {
                   {s.name}
                 </h3>
               </div>
-            </Link>
+            </div>
           </motion.div>
         ))}
       </div>
 
       {/* Footer CTA */}
-      {/* <div className="text-center mt-20">
+      <div className="text-center mt-20">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
           <Link
-            to="/projects"
-            className="px-8 py-3 bg-mainGold text-black font-semibold rounded-full shadow-lg hover:bg-yellow-500 transition"
+            to="/all-projects"
+            className="px-8 py-3 bg-mainGold text-white font-semibold rounded-full shadow-lg hover:bg-mainGold/80 transition"
           >
             Explore Our Projects →
           </Link>
         </motion.div>
-      </div> */}
+      </div>
     </section>
   );
 }

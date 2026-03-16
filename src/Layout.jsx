@@ -35,7 +35,7 @@ function Layout({ children }) {
       >
         <Link to="/" className="w-full">
           <img
-            className="w-[20%] md:w-[15%] transition-all duration-300"
+            className="w-[20%] md:w-[13%] md:my-3 transition-all duration-300"
             src={navbarWhite ? logo : logo2}
             alt="Datta and Tayefi"
           />

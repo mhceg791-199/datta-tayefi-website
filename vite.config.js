@@ -10,6 +10,7 @@ export default defineConfig({
 })
 
 // Deploy on Vercel
+
 // import { defineConfig } from 'vite'
 // import react from '@vitejs/plugin-react'
 

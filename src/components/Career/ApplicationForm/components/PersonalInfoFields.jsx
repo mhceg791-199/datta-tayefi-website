@@ -1,4 +1,4 @@
-import { POSITIONS } from "../../../../data/POSITIONS";
+import { POSITIONSENG } from "../../../../data/positionsEng";
 
 const PersonalInfoFields = ({ formData, handleChange, disabled }) => {
   return (
@@ -69,7 +69,7 @@ const PersonalInfoFields = ({ formData, handleChange, disabled }) => {
             className="w-full px-4 py-3 text-mainColor rounded-md bg-transparent border border-mainColor focus:outline-none focus:ring-2 focus:ring-mainColor transition-all disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <option value="">Select Position</option>
-            {POSITIONS.map((pos) => (
+            {POSITIONSENG.map((pos) => (
               <option key={pos} value={pos}>
                 {pos}
               </option>

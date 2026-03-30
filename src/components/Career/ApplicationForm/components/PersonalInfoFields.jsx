@@ -52,7 +52,7 @@ const PersonalInfoFields = ({ formData, handleChange, disabled }) => {
             onChange={handleChange}
             disabled={disabled}
             className="w-full px-4 py-3 text-mainColor rounded-md bg-transparent border border-mainColor focus:outline-none focus:ring-2 focus:ring-mainColor transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-            placeholder="+20 100 000 0000"
+            placeholder="(305) 123-4567"
           />
         </div>
 
